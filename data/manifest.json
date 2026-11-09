@@ -1,0 +1,40 @@
+{
+  "version": "0.5.1",
+  "supported_exe_sha256": "69bca6d6e9dd874d0e9b194a300f1ddf9ffc264b1081f78e0e4e7d7ff4c0408e",
+  "original_bink_sha256": "5ec0f57f58a90d0cdc83d77233d4b9344a34b1b720d30ebef65193cfc51bdd1c",
+  "payload": {
+    "bink2w64.dll": {
+      "length": 468480,
+      "sha256": "f0e278e5d7723638e270815367ce13d2d944568a366b688e9074449950db3153"
+    },
+    "hkmw4-changes.bin": {
+      "length": 29446,
+      "sha256": "75c1c52ed4ada258497863f525d47c8e7509e5363ccb661cd100c0853ab6051a"
+    },
+    "hkmw4-mission-review.bin": {
+      "length": 1306124,
+      "sha256": "8b8d45dab7b44d64da5675ff60ea7524a956f4444660bdbf5aecf8aa2b8aa32d"
+    },
+    "hkmw4-sources.bin": {
+      "length": 524752,
+      "sha256": "108c530fe1ea77f473f749d42f35a493c6514b47f2150ffb9a90c3560e10d362"
+    },
+    "hkmw4.dll": {
+      "length": 27648,
+      "sha256": "a6aafe9f9916fd743858d7e3660f4a7c7054d0de107c0b2dbd1ca29db4bf95ec"
+    }
+  },
+  "full_text_rules": 15304,
+  "menu_rules_preserved": 178,
+  "full_campaign_review_complete": false,
+  "runtime_engine_version": "0.3.3-punctuation",
+  "timing_diagnostics": false,
+  "typography_waived_by_user": true,
+  "punctuation_policy": "Preserve internal sentence stops; remove only terminal segment stops, including before closing punctuation.",
+  "package_kind": "Unofficial cumulative translation review checkpoint",
+  "pending_reference_rows": 335,
+  "unresolved_context_rows": 23,
+  "game_visual_verification": "User testing pending",
+  "micro_stutter_verified_fixed": false,
+  "distribution": "Reconstruct the 57-byte loader modification from the user-provided matching original file; original game DLL is not bundled."
+}
