@@ -99,7 +99,7 @@ internal sealed class InstallerForm:Form {
         uninstall.Text="還原舊版／移除補丁";uninstall.SetBounds(224,204,246,40);uninstall.Click+=async(sender,e)=>await Execute("Uninstall");
         status.Text="等待操作。安裝程式會備份原檔並檢查版本。";status.AutoSize=true;status.Location=new Point(28,260);
         log.Multiline=true;log.ReadOnly=true;log.ScrollBars=ScrollBars.Vertical;log.SetBounds(28,292,728,190);log.Anchor=AnchorStyles.Top|AnchorStyles.Bottom|AnchorStyles.Left|AnchorStyles.Right;
-        var footnote=new Label {Text="非官方補丁。未確認修復 micro stutter。安裝程式不會啟動遊戲。",AutoSize=true,Location=new Point(28,506),Anchor=AnchorStyles.Left|AnchorStyles.Bottom};
+        var footnote=new Label {Text="非官方補丁。安裝程式不會啟動遊戲。",AutoSize=true,Location=new Point(28,506),Anchor=AnchorStyles.Left|AnchorStyles.Bottom};
         Controls.AddRange(new Control[]{title,description,label,folder,browse,install,uninstall,status,log,footnote});
         FormClosing+=(sender,e)=>{if(busy)e.Cancel=true;};
     }

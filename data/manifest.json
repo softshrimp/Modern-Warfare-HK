@@ -35,6 +35,5 @@
   "pending_reference_rows": 335,
   "unresolved_context_rows": 23,
   "game_visual_verification": "User testing pending",
-  "micro_stutter_verified_fixed": false,
   "distribution": "Reconstruct the 57-byte loader modification from the user-provided matching original file; original game DLL is not bundled."
 }
