@@ -98,8 +98,8 @@ if($Mode -eq 'Install') {
         }
         throw $failure
     }
-    Write-Output 'Cumulative Hong Kong patch 0.5.1 installed. The game has not been started.'
-    Write-Output 'Start the game later using your existing launcher.'
+    Write-Output 'Cumulative Hong Kong patch 0.5.4 installed. The game has not been started.'
+    Write-Output 'At your chosen time, start the game using your existing launcher.'
     Write-Output 'Reviewed campaign and shared text is enabled. Typography is omitted by user agreement. See the included coverage limits.'
     Write-Output ('Original Bink backup: '+$backupBink)
 } else {

@@ -1,0 +1,1307 @@
+{
+  "version": "0.5.4",
+  "scope": "100 selected semantic corrections verified against the shipped exact-text table; not an exhaustive error inventory",
+  "example_count": 100,
+  "examples": [
+    {
+      "number": 1,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-5439",
+      "english": "We improvise.",
+      "english_variants": [
+        "We improvise."
+      ],
+      "original_tc": "我們就地取材。",
+      "hk": "我們隨機應變",
+      "reason": "improvise在此指隨機應變，不限於取用現場材料。",
+      "source_hash_fnv1a64": "97d41053419151ab"
+    },
+    {
+      "number": 2,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-6494",
+      "english": "[Like hell you will.]",
+      "english_variants": [
+        "[Like hell you will.]"
+      ],
+      "original_tc": "［你看著辦吧。］",
+      "hk": "［你想也別想］",
+      "reason": "Like hell you will是強烈反對；原譯卻讓對方自行決定，立場相反。",
+      "source_hash_fnv1a64": "b5b093777454de5d"
+    },
+    {
+      "number": 3,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "reference-36299",
+      "english": "Yes, Sergeant.",
+      "english_variants": [
+        "Yes, Sergeant."
+      ],
+      "original_tc": "沒有，中士。",
+      "hk": "是，中士",
+      "reason": "Yes是肯定回答，原譯卻用了否定的「沒有」。",
+      "source_hash_fnv1a64": "0644eeef88f6bb12"
+    },
+    {
+      "number": 4,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-718",
+      "english": "Mind yerself.",
+      "english_variants": [
+        "Mind yerself."
+      ],
+      "original_tc": "少管我。",
+      "hk": "小心點",
+      "reason": "Mind yourself是提醒對方小心，不是叫對方少管自己。",
+      "source_hash_fnv1a64": "157b31775f387c1d"
+    },
+    {
+      "number": 5,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-297",
+      "english": "Lady, you might as well be speaking Korean.",
+      "english_variants": [
+        "Lady, you might as well be speaking Korean."
+      ],
+      "original_tc": "小姐，妳說韓語我還比較聽得懂。",
+      "hk": "小姐，你不如說韓語吧，反正我一樣聽不懂",
+      "reason": "這個比喻表示完全聽不懂，原譯卻說韓語更容易聽懂。",
+      "source_hash_fnv1a64": "08d627b658123d57"
+    },
+    {
+      "number": 6,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-587",
+      "english": "What? Am I speaking Korean?",
+      "english_variants": [
+        "What? Am I speaking Korean?"
+      ],
+      "original_tc": "怎麼了？我說的是韓語吧？",
+      "hk": "怎麼了？難道我說的是韓語？",
+      "reason": "角色反問對方為何聽不明白，不是在確認自己說的是韓語。",
+      "source_hash_fnv1a64": "1169395f1366ce38"
+    },
+    {
+      "number": 7,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-3371",
+      "english": "We are ready. Every base is within range.",
+      "english_variants": [
+        "We are ready. Every base is within range."
+      ],
+      "original_tc": "很清楚，所有基地都在射程內了。",
+      "hk": "我們準備好了。所有基地都在射程之內",
+      "reason": "ready指準備就緒，不是理解得很清楚。",
+      "source_hash_fnv1a64": "5ebe05c071530cb1"
+    },
+    {
+      "number": 8,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-3464",
+      "english": "[Nothing yet. I'm still trying to figure out what’s wrong.]",
+      "english_variants": [
+        "[Nothing yet. I'm still trying to figure out what’s wrong.]"
+      ],
+      "original_tc": "［還不用，我先找出問題是出在哪裡。］",
+      "hk": "［還沒有，我仍在查問題出在哪裏］",
+      "reason": "Nothing yet表示還沒有結果，不是暫時不需要。",
+      "source_hash_fnv1a64": "612af83e6d7562d9"
+    },
+    {
+      "number": 9,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-137",
+      "english": "[Oh hell yeah.]",
+      "english_variants": [
+        "[Oh hell yeah.]"
+      ],
+      "original_tc": "［喔，看到了。］",
+      "hk": "［太好了］",
+      "reason": "Oh hell yeah表示興奮或贊同，沒有看見東西的意思。",
+      "source_hash_fnv1a64": "03f03dd04c533d25"
+    },
+    {
+      "number": 10,
+      "category": "慣用語、肯否及說話立場",
+      "review_id": "base-4209",
+      "english": "Don’t have to tell me twice!",
+      "english_variants": [
+        "Don’t have to tell me twice!"
+      ],
+      "original_tc": "不用你說我也知道！",
+      "hk": "不用說第二次！",
+      "reason": "原文說不用重複指示，並非聲稱對方未說之前自己已知道。",
+      "source_hash_fnv1a64": "7668a8d701f43875"
+    },
+    {
+      "number": 11,
+      "category": "動作及任務指令",
+      "review_id": "recovered-0270",
+      "english": "Prep for beaching.",
+      "english_variants": [
+        "Prep for beaching."
+      ],
+      "original_tc": "準備突破。",
+      "hk": "準備搶灘",
+      "reason": "beaching指搶灘，不是突破。",
+      "source_hash_fnv1a64": "7ca365ca98cbe8e7"
+    },
+    {
+      "number": 12,
+      "category": "動作及任務指令",
+      "review_id": "base-120",
+      "english": "Light ‘em up.",
+      "english_variants": [
+        "Light ‘em up."
+      ],
+      "original_tc": "燃燒他們。",
+      "hk": "向他們開火",
+      "reason": "Light them up在交戰語境是向敵人開火，不是放火燃燒他們。",
+      "source_hash_fnv1a64": "0371a99c49b9e45e"
+    },
+    {
+      "number": 13,
+      "category": "動作及任務指令",
+      "review_id": "base-471",
+      "english": "Finish up. We’re leaving.",
+      "english_variants": [
+        "Finish up. We’re leaving."
+      ],
+      "original_tc": "快動手，我們要走了。",
+      "hk": "快收尾，我們要走了",
+      "reason": "Finish up要求完成或收尾，不是要求開始動手。",
+      "source_hash_fnv1a64": "0df000fcb8927b68"
+    },
+    {
+      "number": 14,
+      "category": "動作及任務指令",
+      "review_id": "base-2372",
+      "english": "We need to get to that MG!",
+      "english_variants": [
+        "We need to get to that MG!"
+      ],
+      "original_tc": "我們得解決掉機槍巢！",
+      "hk": "我們得趕到那挺機槍那裏！",
+      "reason": "get to要求趕到機槍所在位置，不是摧毀機槍巢。",
+      "source_hash_fnv1a64": "4315d14abd09b3a4"
+    },
+    {
+      "number": 15,
+      "category": "動作及任務指令",
+      "review_id": "base-2335",
+      "english": "[Send reinforcements to the garage!]",
+      "english_variants": [
+        "[Send reinforcements to the garage!]"
+      ],
+      "original_tc": "［增援部隊到車庫集合！］",
+      "hk": "［派增援部隊到車庫！］",
+      "reason": "這是派遣增援部隊的命令，不是向增援部隊下集合令。",
+      "source_hash_fnv1a64": "4232df30d85bd755"
+    },
+    {
+      "number": 16,
+      "category": "動作及任務指令",
+      "review_id": "base-1066",
+      "english": "Rearm and resupply.",
+      "english_variants": [
+        "Rearm and resupply."
+      ],
+      "original_tc": "拿好裝備和武器。",
+      "hk": "補充武器彈藥和物資",
+      "reason": "rearm和resupply要求補充武器彈藥及物資，不是拿好現有裝備。",
+      "source_hash_fnv1a64": "1f088062609e2b99"
+    },
+    {
+      "number": 17,
+      "category": "動作及任務指令",
+      "review_id": "base-4136",
+      "english": "Find 'em.",
+      "english_variants": [
+        "Find 'em."
+      ],
+      "original_tc": "我會找到他們。",
+      "hk": "找出他們",
+      "reason": "Find them是命令對方找人，不是說話者承諾自己會找到。",
+      "source_hash_fnv1a64": "746a860fd9193039"
+    },
+    {
+      "number": 18,
+      "category": "動作及任務指令",
+      "review_id": "base-1521",
+      "english": "Stand down!",
+      "english_variants": [
+        "Stand down!"
+      ],
+      "original_tc": "投降！",
+      "hk": "停止行動！",
+      "reason": "Stand down要求停止行動，原譯直接改成了投降命令。",
+      "source_hash_fnv1a64": "2bca47a309285d75"
+    },
+    {
+      "number": 19,
+      "category": "動作及任務指令",
+      "review_id": "base-2511",
+      "english": "[Private Park], you have to keep moving.",
+      "english_variants": [
+        "[Private Park], you have to keep moving."
+      ],
+      "original_tc": "［朴二等兵，］可別脫隊了。",
+      "hk": "［朴二等兵，］你得繼續前進",
+      "reason": "keep moving要求繼續前進，並非只要求不要脫隊。",
+      "source_hash_fnv1a64": "4711c9dcdbb254c2"
+    },
+    {
+      "number": 20,
+      "category": "動作及任務指令",
+      "review_id": "base-3822",
+      "english": "[We’ll go when you’re ready.]",
+      "english_variants": [
+        "[We’ll go when you’re ready.]"
+      ],
+      "original_tc": "［您準備好我們就出手。］",
+      "hk": "［您準備好，我們就走］",
+      "reason": "go指離開或出發，原譯卻改成動手攻擊。",
+      "source_hash_fnv1a64": "6b9405a8306049b0"
+    },
+    {
+      "number": 21,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-15",
+      "english": "He’s in the train car.",
+      "english_variants": [
+        "He’s in the train car."
+      ],
+      "original_tc": "敵人在車廂裡。",
+      "hk": "他在車廂裏",
+      "reason": "原文只用he指代一名人物；修訂保留指代，不額外指定他是敵人。",
+      "source_hash_fnv1a64": "00b2482a9fd3e7f6"
+    },
+    {
+      "number": 22,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-466",
+      "english": "[What you’re doing...will kill us. Needlessly. Recklessly. All this death--]",
+      "english_variants": [
+        "[What you’re doing...will kill us. Needlessly. Recklessly. All this death--]"
+      ],
+      "original_tc": "［你的所作所為……會害死所有人。這種毫無節制的暴行，造成不必要的死亡──］",
+      "hk": "［你這樣做……會害死我們。既魯莽又毫無必要，死了這麼多人──］",
+      "reason": "us指包括說話者在內的一方，不能擴大成所有人；亦補回魯莽的指責。",
+      "source_hash_fnv1a64": "0dc97a0cb768d81e"
+    },
+    {
+      "number": 23,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-3838",
+      "english": "We’re not here for them.",
+      "english_variants": [
+        "We’re not here for them."
+      ],
+      "original_tc": "我們不是來抓你們的。",
+      "hk": "我們不是為他們而來",
+      "reason": "them指他們，原譯卻改成對面受話者「你們」，並加入抓捕動作。",
+      "source_hash_fnv1a64": "6bde2f705b59830c"
+    },
+    {
+      "number": 24,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-412",
+      "english": "[My guy], take the launcher.",
+      "english_variants": [
+        "[My guy], take the launcher."
+      ],
+      "original_tc": "［自己人，］拿發射器。",
+      "hk": "［兄弟，］拿發射器",
+      "reason": "My guy是對人的稱呼，不是在判斷對方屬於自己人。",
+      "source_hash_fnv1a64": "0c2776b287c8fe3e"
+    },
+    {
+      "number": 25,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-1443",
+      "english": "Lieutenant West. These are my scouts.",
+      "english_variants": [
+        "Lieutenant West. These are my scouts."
+      ],
+      "original_tc": "我是韋斯特中尉，這是我的小隊。",
+      "hk": "我是韋斯特中尉，這幾位是我的偵察兵",
+      "reason": "scouts明確指偵察兵，原譯只泛稱整支小隊。",
+      "source_hash_fnv1a64": "292ac08bdea1ff21"
+    },
+    {
+      "number": 26,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-1140",
+      "english": "[Private Park], you got the spotter scope. Get a visual on our guys.",
+      "english_variants": [
+        "[Private Park], you got the spotter scope. Get a visual on our guys."
+      ],
+      "original_tc": "［朴二等兵，］用望遠鏡看是不是我們的人。",
+      "hk": "［朴二等兵，］你有觀測鏡，找出我們的人在哪裏",
+      "reason": "命令是用觀測鏡看見己方人員的位置，不是辨認對方是否友軍。",
+      "source_hash_fnv1a64": "20e9be839cae4bdf"
+    },
+    {
+      "number": 27,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-970",
+      "english": "Get us out of the water!",
+      "english_variants": [
+        "Get us out of the water!"
+      ],
+      "original_tc": "快離開水漥！",
+      "hk": "快帶我們離開水裏！",
+      "reason": "Get us out要求對方帶我們離開，原譯漏了對象，亦把水域限定成水窪。",
+      "source_hash_fnv1a64": "1c5433597ebf6c63"
+    },
+    {
+      "number": 28,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-1906",
+      "english": "And he knows you.",
+      "english_variants": [
+        "And he knows you."
+      ],
+      "original_tc": "他也知道你。",
+      "hk": "他也認識你",
+      "reason": "knows you指認識你，不是只知道你的存在。",
+      "source_hash_fnv1a64": "35ca89bae040231e"
+    },
+    {
+      "number": 29,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-3682",
+      "english": "[I trust our team. I trust you. That’s a choice.]",
+      "english_variants": [
+        "[I trust our team. I trust you. That’s a choice.]"
+      ],
+      "original_tc": "［我相信我們小隊、我相信你，這樣就夠了。］",
+      "hk": "［我信任我們的小隊。我信任你。這就是選擇］",
+      "reason": "That is a choice強調信任是一項選擇，原譯改成了「這樣就夠了」。",
+      "source_hash_fnv1a64": "67000320c8fd2036"
+    },
+    {
+      "number": 30,
+      "category": "人物、受詞及動作對象",
+      "review_id": "base-952",
+      "english": "[Here!] I got grenades!",
+      "english_variants": [
+        "[Here!] I got grenades!"
+      ],
+      "original_tc": "［過來拿，］我有彈藥！",
+      "hk": "［來拿！］我有手榴彈！",
+      "reason": "grenades明確指手榴彈，原譯只說泛指的彈藥。",
+      "source_hash_fnv1a64": "1bbad269c86ca5f2"
+    },
+    {
+      "number": 31,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-243",
+      "english": "They’re close...",
+      "english_variants": [
+        "They’re close..."
+      ],
+      "original_tc": "他們快來了……",
+      "hk": "他們就在附近……",
+      "reason": "close在此表示距離近，原譯卻說對方即將到來。",
+      "source_hash_fnv1a64": "0720d8761544b54b"
+    },
+    {
+      "number": 32,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-290",
+      "english": "He’s on the street.",
+      "english_variants": [
+        "He’s on the street."
+      ],
+      "original_tc": "他回到街上了。",
+      "hk": "他在街上",
+      "reason": "on the street交代目前位置，沒有返回街上的意思。",
+      "source_hash_fnv1a64": "08ac86916948b00e"
+    },
+    {
+      "number": 33,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-401",
+      "english": "To your left.",
+      "english_variants": [
+        "To your left."
+      ],
+      "original_tc": "往左走。",
+      "hk": "在你左邊",
+      "reason": "To your left指出物件或人物在你左邊，不是下令往左移動。",
+      "source_hash_fnv1a64": "0bd612a7c457fe10"
+    },
+    {
+      "number": 34,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-763",
+      "english": "They’re across the intersection!",
+      "english_variants": [
+        "They’re across the intersection!"
+      ],
+      "original_tc": "他們從路口過來了！",
+      "hk": "他們在路口另一邊！",
+      "reason": "across the intersection表示在路口另一邊，不是正從路口過來。",
+      "source_hash_fnv1a64": "16d9026d88669e5c"
+    },
+    {
+      "number": 35,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-1104",
+      "english": "Over here. Left corner.",
+      "english_variants": [
+        "Over here. Left corner."
+      ],
+      "original_tc": "這個，左邊角落。",
+      "hk": "這邊，左邊角落",
+      "reason": "Over here是指示位置的「這邊」，原譯卻成了指物的「這個」。",
+      "source_hash_fnv1a64": "1ffdfe241905fb38"
+    },
+    {
+      "number": 36,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-2215",
+      "english": "Found an entry point. East wall.",
+      "english_variants": [
+        "Found an entry point. East wall."
+      ],
+      "original_tc": "找到進入點了，在東側圍籬。",
+      "hk": "找到入口了，在東面的牆上",
+      "reason": "wall是牆，原譯卻把進入點放到圍籬。",
+      "source_hash_fnv1a64": "3eaa701dbc7407d6"
+    },
+    {
+      "number": 37,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-2276",
+      "english": "I found the way down...",
+      "english_variants": [
+        "I found the way down..."
+      ],
+      "original_tc": "我找到入口了……",
+      "hk": "我找到下去的路了……",
+      "reason": "way down是下去的路，不是未指方向的一般入口。",
+      "source_hash_fnv1a64": "4060748452053f38"
+    },
+    {
+      "number": 38,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-2521",
+      "english": "Let’s keep pushing up.",
+      "english_variants": [
+        "Let’s keep pushing up."
+      ],
+      "original_tc": "我們繼續上樓。",
+      "hk": "我們繼續推進",
+      "reason": "push up在這裏指向前推進，原譯卻指定上樓。",
+      "source_hash_fnv1a64": "475931ee4fbd22c7"
+    },
+    {
+      "number": 39,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-2583",
+      "english": "Targets up on the train cars!",
+      "english_variants": [
+        "Targets up on the train cars!"
+      ],
+      "original_tc": "火車裡面有敵人！",
+      "hk": "車廂頂上有目標！",
+      "reason": "up on the train cars指車廂頂上，原譯把目標放到火車裏面。",
+      "source_hash_fnv1a64": "491e425df6817572"
+    },
+    {
+      "number": 40,
+      "category": "位置、方向及空間關係",
+      "review_id": "base-3288",
+      "english": "Oh, right here.",
+      "english_variants": [
+        "Oh, right here."
+      ],
+      "original_tc": "喔，是我。",
+      "hk": "噢，就在這裏",
+      "reason": "right here是位置指示，不是說話者表明「是我」。",
+      "source_hash_fnv1a64": "5ce0cc9718bc31fa"
+    },
+    {
+      "number": 41,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-1020",
+      "english": "It’ll force the helo away.",
+      "english_variants": [
+        "It’ll force the helo away."
+      ],
+      "original_tc": "那直升機遲早會離開。",
+      "hk": "這會迫使直升機離開",
+      "reason": "原文指某個行動會迫使直升機離開，原譯卻說它遲早自行離開。",
+      "source_hash_fnv1a64": "1d99d8150b13b26e"
+    },
+    {
+      "number": 42,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-1678",
+      "english": "Copy. Mayhem-1 is on station. Engaging enemy vehicles.",
+      "english_variants": [
+        "Copy. Mayhem-1 is on station. Engaging enemy vehicles."
+      ],
+      "original_tc": "收到。混亂1已抵達指定位置，準備攻擊敵方載具。",
+      "hk": "收到。混亂1已抵達指定位置，正在攻擊敵方車輛",
+      "reason": "Engaging回報正在攻擊，不是仍在準備攻擊。",
+      "source_hash_fnv1a64": "2fcf5826c83fb4d2"
+    },
+    {
+      "number": 43,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-3153",
+      "english": "Luca, we’re on foot. Keep driving.",
+      "english_variants": [
+        "Luca, we’re on foot. Keep driving."
+      ],
+      "original_tc": "盧卡，我們再來要用走的。你繼續開──",
+      "hk": "盧卡，我們現在步行。你繼續開車",
+      "reason": "we are on foot交代現在已經步行，原譯卻說稍後才開始走。",
+      "source_hash_fnv1a64": "59110b56c1a90fb2"
+    },
+    {
+      "number": 44,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-2861",
+      "english": "There’s our guys. They’re coming across the intersection.",
+      "english_variants": [
+        "There’s our guys. They’re coming across the intersection."
+      ],
+      "original_tc": "這是我們的人，他們要穿越路口了。",
+      "hk": "我們的人在那裏，正穿過路口過來",
+      "reason": "coming across表示正在穿過路口過來，不是準備穿越。",
+      "source_hash_fnv1a64": "50b78799ba0132a4"
+    },
+    {
+      "number": 45,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-3480",
+      "english": "They are sweeping through in groups.",
+      "english_variants": [
+        "They are sweeping through in groups."
+      ],
+      "original_tc": "他們會分成幾組進行搜索。",
+      "hk": "他們正分組搜索",
+      "reason": "are sweeping表示搜索已在進行，不是尚未實施的計劃。",
+      "source_hash_fnv1a64": "61a12c102b838b6a"
+    },
+    {
+      "number": 46,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-3781",
+      "english": "Just came out blastin’, huh, Park?",
+      "english_variants": [
+        "Just came out blastin’, huh, Park?"
+      ],
+      "original_tc": "你就想火力全開上吼，朴玄俊？",
+      "hk": "一衝出來就猛烈開火啊，朴玄俊？",
+      "reason": "came out blasting描述已發生的開火行為，原譯卻改成想要這樣做。",
+      "source_hash_fnv1a64": "6a344e263d1b2649"
+    },
+    {
+      "number": 47,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-4538",
+      "english": "Park! Where’d you go, bud?",
+      "english_variants": [
+        "Park! Where’d you go, bud?"
+      ],
+      "original_tc": "朴玄俊！你要去哪，兄弟？",
+      "hk": "朴玄俊！你去哪裏了，兄弟？",
+      "reason": "Where did you go問剛才去了哪裏，原譯卻問接下來要去哪裏。",
+      "source_hash_fnv1a64": "7f7f9c955729f256"
+    },
+    {
+      "number": 48,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-4477",
+      "english": "Park, you’re drawing its fire!",
+      "english_variants": [
+        "Park, you’re drawing its fire!"
+      ],
+      "original_tc": "朴玄俊，你會引來攻擊！",
+      "hk": "朴玄俊，你正引來它的火力！",
+      "reason": "are drawing回報正在吸引火力，原譯卻用未來警告語氣。",
+      "source_hash_fnv1a64": "7d7765313f2a078a"
+    },
+    {
+      "number": 49,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-3177",
+      "english": "Copy. I’ve pulled as many forces away as I could.",
+      "english_variants": [
+        "Copy. I’ve pulled as many forces away as I could."
+      ],
+      "original_tc": "收到，我盡量讓部隊遠離那邊了。",
+      "hk": "收到。我已盡可能把部隊調離了",
+      "reason": "I have pulled表示已完成調離，並交代已盡最大能力，不是仍在嘗試。",
+      "source_hash_fnv1a64": "59c8e3a8d8848b9a"
+    },
+    {
+      "number": 50,
+      "category": "時態、進行狀態及因果",
+      "review_id": "base-3295",
+      "english": "That MG position’s secure.",
+      "english_variants": [
+        "That MG position’s secure."
+      ],
+      "original_tc": "機槍巢防禦得很好。",
+      "hk": "那個機槍陣地已安全",
+      "reason": "secure回報陣地已安全或已受控制，不是評價敵人防禦得很好。",
+      "source_hash_fnv1a64": "5d0b087609424dce"
+    },
+    {
+      "number": 51,
+      "category": "條件、程度及數量",
+      "review_id": "base-131",
+      "english": "It's the best thing we can do for 'em.",
+      "english_variants": [
+        "It's the best thing we can do for 'em."
+      ],
+      "original_tc": "目前也沒有其他選項了。",
+      "hk": "這已經是我們能為他們做的最好的事了",
+      "reason": "best表示能做的最好選擇，原譯卻斷言沒有其他選項。",
+      "source_hash_fnv1a64": "03b11573665d61af"
+    },
+    {
+      "number": 52,
+      "category": "條件、程度及數量",
+      "review_id": "base-837",
+      "english": "The explosives are in the marked crates.",
+      "english_variants": [
+        "The explosives are in the marked crates."
+      ],
+      "original_tc": "裝炸藥的箱子上應該有記號。",
+      "hk": "炸藥就在有標記的箱子裏",
+      "reason": "原文確定炸藥在有標記的箱內，原譯把它變成箱子應該有記號的猜測。",
+      "source_hash_fnv1a64": "18cc0b8ec7f41b9a"
+    },
+    {
+      "number": 53,
+      "category": "條件、程度及數量",
+      "review_id": "base-2772",
+      "english": "You might have to take out the sniper to get across.",
+      "english_variants": [
+        "You might have to take out the sniper to get across."
+      ],
+      "original_tc": "您得先解決狙擊手才能安全通過。",
+      "hk": "你可能得先解決狙擊手，才能過去",
+      "reason": "might have to表示可能需要，原譯把它變成必須滿足的條件。",
+      "source_hash_fnv1a64": "4e931fe649db36d2"
+    },
+    {
+      "number": 54,
+      "category": "條件、程度及數量",
+      "review_id": "base-1070",
+      "english": "Clock’s ticking.",
+      "english_variants": [
+        "Clock’s ticking."
+      ],
+      "original_tc": "沒時間了。",
+      "hk": "時間不多了",
+      "reason": "Clock is ticking表示時間正在流逝，不代表已經完全沒有時間。",
+      "source_hash_fnv1a64": "1f186f735acc8d81"
+    },
+    {
+      "number": 55,
+      "category": "條件、程度及數量",
+      "review_id": "base-2482",
+      "english": "I want that case!",
+      "english_variants": [
+        "I want that case!"
+      ],
+      "original_tc": "我會拿到手提箱！",
+      "hk": "我要那個手提箱！",
+      "reason": "want表達要求或意願，原譯卻成了保證會拿到。",
+      "source_hash_fnv1a64": "4629ce1e460166a7"
+    },
+    {
+      "number": 56,
+      "category": "條件、程度及數量",
+      "review_id": "base-1473",
+      "english": "Last grenades. Make 'em count!",
+      "english_variants": [
+        "Last grenades. Make 'em count!"
+      ],
+      "original_tc": "最後一顆榴彈，別浪費了！",
+      "hk": "只剩最後幾顆榴彈了。別浪費！",
+      "reason": "grenades是複數，原譯卻只剩一顆；修訂保留複數資訊。",
+      "source_hash_fnv1a64": "2a17b610734c54d1"
+    },
+    {
+      "number": 57,
+      "category": "條件、程度及數量",
+      "review_id": "base-2906",
+      "english": "Second MG nest destroyed!",
+      "english_variants": [
+        "Second MG nest destroyed!"
+      ],
+      "original_tc": "另一個機槍巢已摧毀！",
+      "hk": "第二個機槍巢已摧毀！",
+      "reason": "second明確指第二個，原譯只說另一個。",
+      "source_hash_fnv1a64": "51d9ae5dd3c644ca"
+    },
+    {
+      "number": 58,
+      "category": "條件、程度及數量",
+      "review_id": "base-2019",
+      "english": "How hard does it hit?",
+      "english_variants": [
+        "How hard does it hit?"
+      ],
+      "original_tc": "它火力很強嗎？",
+      "hk": "它的威力有多大？",
+      "reason": "How hard問威力有多大，原譯卻成了是否很強的肯否問題。",
+      "source_hash_fnv1a64": "3938ec2f7796659f"
+    },
+    {
+      "number": 59,
+      "category": "條件、程度及數量",
+      "review_id": "base-3967",
+      "english": "They’re trying to slow us down!",
+      "english_variants": [
+        "They’re trying to slow us down!"
+      ],
+      "original_tc": "他們打算擋下我們！",
+      "hk": "他們想拖慢我們！",
+      "reason": "slow us down是拖慢行動，不等於完全擋下。",
+      "source_hash_fnv1a64": "6fbf4178f648fd96"
+    },
+    {
+      "number": 60,
+      "category": "條件、程度及數量",
+      "review_id": "base-2867",
+      "english": "Get back when you can. We’ll put them to good use.",
+      "english_variants": [
+        "Get back when you can. We’ll put them to good use."
+      ],
+      "original_tc": "盡快回來，我們要好好利用這些東西。",
+      "hk": "方便時就回來，我們會好好利用這些東西",
+      "reason": "when you can表示能回來時再回來，原譯卻改成盡快返回的催促。",
+      "source_hash_fnv1a64": "50d7d0e3027761d9"
+    },
+    {
+      "number": 61,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-2733",
+      "english": "Use the dark.",
+      "english_variants": [
+        "Use the dark."
+      ],
+      "original_tc": "用黑暗作掩護，安靜地做掉他們。",
+      "hk": "利用黑暗作掩護",
+      "reason": "Use the dark只要求利用黑暗；原譯另加了安靜殺人的命令。",
+      "source_hash_fnv1a64": "4d606b3d3317063d"
+    },
+    {
+      "number": 62,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-2821",
+      "english": "That’s what you’re here for.",
+      "english_variants": [
+        "That’s what you’re here for."
+      ],
+      "original_tc": "所以我才讓你加入行動。",
+      "hk": "這就是你來這裏的原因",
+      "reason": "原文只說這就是對方在此的原因，沒有說是說話者親自招募他。",
+      "source_hash_fnv1a64": "4fdece9292c0d120"
+    },
+    {
+      "number": 63,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-806",
+      "english": "[Just remember your training.]",
+      "english_variants": [
+        "[Just remember your training.]"
+      ],
+      "original_tc": "［您受過軍事訓練，您沒問題。］",
+      "hk": "［記住你受過的訓練］",
+      "reason": "原文提醒記住所受訓練，沒有另外保證「你沒問題」。",
+      "source_hash_fnv1a64": "17efd9029ec05ad7"
+    },
+    {
+      "number": 64,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-695",
+      "english": "Fuckin’ A, dude, nice!",
+      "english_variants": [
+        "Fuckin’ A, dude, nice!"
+      ],
+      "original_tc": "厲害，兄弟，愛死你！",
+      "hk": "厲害，兄弟，做得好！",
+      "reason": "nice是稱讚做得好，原文沒有「愛死你」。",
+      "source_hash_fnv1a64": "14c45a30191888e4"
+    },
+    {
+      "number": 65,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-895",
+      "english": "Watch the van!",
+      "english_variants": [
+        "Watch the van!"
+      ],
+      "original_tc": "別打到廂型車！",
+      "hk": "小心那輛客貨車！",
+      "reason": "Watch the van要求留意車輛，原文並未明說不要射中它。",
+      "source_hash_fnv1a64": "1a41548008a2b065"
+    },
+    {
+      "number": 66,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-2811",
+      "english": "[Please, please don't kill me!]",
+      "english_variants": [
+        "[Please, please don't kill me!]"
+      ],
+      "original_tc": "［住手！不要殺我！］",
+      "hk": "［求求你，求求你別殺我！］",
+      "reason": "原文是重複懇求別殺自己，沒有下令對方住手。",
+      "source_hash_fnv1a64": "4fa95dd2530e1abe"
+    },
+    {
+      "number": 67,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-1430",
+      "english": "[Sir, the earpiece. Take it.]",
+      "english_variants": [
+        "[Sir, the earpiece. Take it.]"
+      ],
+      "original_tc": "［領導人，請戴耳機，動作快點。］",
+      "hk": "［領導人，拿着這個耳機］",
+      "reason": "Take it要求拿取耳機，原譯另加了戴上及加快動作的要求。",
+      "source_hash_fnv1a64": "28da7eb8652808b6"
+    },
+    {
+      "number": 68,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-3823",
+      "english": "[Violence is a tool. You need to use it? Then use it.]",
+      "english_variants": [
+        "[Violence is a tool. You need to use it? Then use it.]"
+      ],
+      "original_tc": "［暴力是種工具。需要用就得用，不能心軟。］",
+      "hk": "［暴力是一種工具。需要用，就用］",
+      "reason": "原文談需要時使用暴力，沒有「不能心軟」這項額外評語。",
+      "source_hash_fnv1a64": "6b979230c7549df6"
+    },
+    {
+      "number": 69,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-4503",
+      "english": "Still got some fight in you then.",
+      "english_variants": [
+        "Still got some fight in you then."
+      ],
+      "original_tc": "沒想到你這老傢伙還能打。",
+      "hk": "看來你還有力氣反抗",
+      "reason": "原文說仍有反抗的力氣，沒有「你這老傢伙」的年齡稱呼。",
+      "source_hash_fnv1a64": "7e4d0ac4f29c8b1c"
+    },
+    {
+      "number": 70,
+      "category": "刪除原文沒有的內容",
+      "review_id": "base-1918",
+      "english": "Faster, Dunn. Faster.",
+      "english_variants": [
+        "Faster, Dunn. Faster."
+      ],
+      "original_tc": "快點，鄧恩，要走了。",
+      "hk": "快一點，鄧恩，再快一點",
+      "reason": "原文重複催促更快，沒有「要走了」的補充。",
+      "source_hash_fnv1a64": "3637f6b7e6d584e9"
+    },
+    {
+      "number": 71,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-293",
+      "english": "New guy’s low on rations.",
+      "english_variants": [
+        "New guy’s low on rations."
+      ],
+      "original_tc": "新來的把零食吃完了。",
+      "hk": "新仔的口糧不多了",
+      "reason": "low on rations表示口糧不足，原譯卻變成零食已被吃完。",
+      "source_hash_fnv1a64": "08b7e0c947095fc5"
+    },
+    {
+      "number": 72,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-1651",
+      "english": "[They wait for you.]",
+      "english_variants": [
+        "[They wait for you.]"
+      ],
+      "original_tc": "［她們隨後就去找你了。］",
+      "hk": "［他們在等你］",
+      "reason": "wait for you是正在等你，原譯卻說她們稍後會去找你。",
+      "source_hash_fnv1a64": "2f2c5aeb0159aaaf"
+    },
+    {
+      "number": 73,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-1927",
+      "english": "[This is what revenge tastes like!]",
+      "english_variants": [
+        "[This is what revenge tastes like!]"
+      ],
+      "original_tc": "［這是惹錯人的下場！］",
+      "hk": "［復仇的滋味就是這樣！］",
+      "reason": "原文明確談復仇的滋味，原譯卻泛化成惹錯人的下場。",
+      "source_hash_fnv1a64": "3658f7b4a622801b"
+    },
+    {
+      "number": 74,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-2122",
+      "english": "[I will.]",
+      "english_variants": [
+        "[I will.]"
+      ],
+      "original_tc": "［明白了。］",
+      "hk": "［我會的］",
+      "reason": "I will是承諾會做，原譯卻只表示明白指示。",
+      "source_hash_fnv1a64": "3c3d2ed941944b33"
+    },
+    {
+      "number": 75,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-2624",
+      "english": "[I- I didn't do anything wrong, I swear!]",
+      "english_variants": [
+        "[I- I didn't do anything wrong, I swear!]"
+      ],
+      "original_tc": "［我──我什麼都沒做，我發誓！］",
+      "hk": "［我──我沒做錯事，我發誓！］",
+      "reason": "anything wrong是否認做錯事，不是否認自己做過任何事情。",
+      "source_hash_fnv1a64": "4a62b329ae83a1db"
+    },
+    {
+      "number": 76,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-3341",
+      "english": "[Because if these things they say are true...]",
+      "english_variants": [
+        "[Because if these things they say are true...]"
+      ],
+      "original_tc": "［如果人民是真心這麼想……］",
+      "hk": "［因為如果他們說的這些事都是真的……］",
+      "reason": "true關乎所述事情是否屬實，原譯卻成了人民是否真心這樣想。",
+      "source_hash_fnv1a64": "5e31f7246ebee358"
+    },
+    {
+      "number": 77,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-352",
+      "english": "[I know you’re in pain, but it’s not safe here.]",
+      "english_variants": [
+        "[I know you’re in pain, but it’s not safe here.]"
+      ],
+      "original_tc": "［我知道你們很害怕，但這裡不安全。］",
+      "hk": "［我知道你們很痛苦，但這裏不安全］",
+      "reason": "in pain表示正受痛苦，原譯卻說是害怕。",
+      "source_hash_fnv1a64": "0aaea490dd6f382f"
+    },
+    {
+      "number": 78,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-1975",
+      "english": "You’re broken.",
+      "english_variants": [
+        "You’re broken."
+      ],
+      "original_tc": "你無法回頭了。",
+      "hk": "你已經垮了",
+      "reason": "broken在此指已經垮掉，原譯卻改成無法回頭。",
+      "source_hash_fnv1a64": "37a96de094123333"
+    },
+    {
+      "number": 79,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-1697",
+      "english": "Oh, I like that...",
+      "english_variants": [
+        "Oh, I like that..."
+      ],
+      "original_tc": "喔，我吃看看……",
+      "hk": "噢，這個我喜歡……",
+      "reason": "I like that是喜歡或欣賞，原譯卻變成嘗試吃東西。",
+      "source_hash_fnv1a64": "305d4fbfc74f253a"
+    },
+    {
+      "number": 80,
+      "category": "補回原有意思及修正指涉",
+      "review_id": "base-2265",
+      "english": "[Why haven’t you found these bastards?]",
+      "english_variants": [
+        "[Why haven’t you found these bastards?]"
+      ],
+      "original_tc": "［為什麼還沒抓到入侵者？］",
+      "hk": "［為甚麼還沒找到這些混蛋？］",
+      "reason": "found是找到，不等於已經捕獲；修訂保留原文尋人的問題。",
+      "source_hash_fnv1a64": "402b0bdd64e9f680"
+    },
+    {
+      "number": 81,
+      "category": "軍事及技術詞彙",
+      "review_id": "recovered-0309",
+      "english": "Anchor-1 is two mikes out. HLZ in sight. I say again, HLZ in sight.",
+      "english_variants": [
+        "Anchor-1 is two mikes out. HLZ in sight. I say again, HLZ in sight."
+      ],
+      "original_tc": "船錨1距離2英里。看見降落區了。重複一次，看見降落區了。",
+      "hk": "船錨1還有2分鐘抵達。已看見直升機着陸區。重複，已看見直升機着陸區",
+      "reason": "無線電用語two mikes在此指兩分鐘後抵達，原譯卻變成兩英里的距離。",
+      "source_hash_fnv1a64": "cdf50b6997ba4899"
+    },
+    {
+      "number": 82,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-3434",
+      "english": "Danger close!",
+      "english_variants": [
+        "Danger close!"
+      ],
+      "original_tc": "危險迫近！",
+      "hk": "注意，炮火接近友軍！",
+      "reason": "Danger close是火力接近友軍的警告，不是一般的危險迫近。",
+      "source_hash_fnv1a64": "606cd20462a9f9c3"
+    },
+    {
+      "number": 83,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-5882",
+      "english": "A lightweight, no-frills suppressor that reduces muzzle report. This suppressor also reduces damage range.",
+      "english_variants": [
+        "A lightweight, no-frills suppressor that reduces muzzle report. This suppressor also reduces damage range."
+      ],
+      "original_tc": "基本款的輕量型消音器，可減弱槍口回饋，也會降低傷害距離。",
+      "hk": "基本輕型消音器，可降低槍聲，但會縮短有效射程",
+      "reason": "muzzle report指槍聲，並非槍口回饋；damage range按武器語境處理為有效射程。",
+      "source_hash_fnv1a64": "a50ed79e0d1248b1"
+    },
+    {
+      "number": 84,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-3905",
+      "english": "[Our Surface-to-Air launcher.]",
+      "english_variants": [
+        "[Our Surface-to-Air launcher.]"
+      ],
+      "original_tc": "［我方地對空飛彈基地。］",
+      "hk": "［我方的地對空導彈發射器］",
+      "reason": "launcher是發射器，原譯卻把它變成整座基地。",
+      "source_hash_fnv1a64": "6ddd5442536ab56b"
+    },
+    {
+      "number": 85,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-3979",
+      "english": "Drill rounds are armor-piercing. Highly effective against vehicles.",
+      "english_variants": [
+        "Drill rounds are armor-piercing. Highly effective against vehicles."
+      ],
+      "original_tc": "穿甲彈能擊穿裝甲，對付載具很有效。",
+      "hk": "鑽頭彈能擊穿裝甲，對付車輛很有效",
+      "reason": "Drill rounds是鑽頭彈；armor-piercing才描述其穿甲能力，兩者不應合併成同一個名稱。",
+      "source_hash_fnv1a64": "701c1f57e7e9e460"
+    },
+    {
+      "number": 86,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-2613",
+      "english": "Stack up at the relay station!",
+      "english_variants": [
+        "Stack up at the relay station!"
+      ],
+      "original_tc": "到變電所外集合！",
+      "hk": "到中繼站門外列隊！",
+      "reason": "relay station是中繼站，stack up是在攻堅前列隊，原譯錯成變電所外集合。",
+      "source_hash_fnv1a64": "49ffb468c3152c16"
+    },
+    {
+      "number": 87,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-4268",
+      "english": "Could be radiation exposure.",
+      "english_variants": [
+        "Could be radiation exposure."
+      ],
+      "original_tc": "可能有輻射外洩。",
+      "hk": "可能是受到輻射影響",
+      "reason": "radiation exposure指受到輻射影響，原譯卻把原因判斷改成輻射外洩事件。",
+      "source_hash_fnv1a64": "77fc570e8931c4f8"
+    },
+    {
+      "number": 88,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-1867",
+      "english": "[Cover the door!]",
+      "english_variants": [
+        "[Cover the door!]"
+      ],
+      "original_tc": "［堵住門口！］",
+      "hk": "［守住門口！］",
+      "reason": "Cover the door要求守住或掩護門口，不是把門堵住。",
+      "source_hash_fnv1a64": "34bd3b7ec8b45761"
+    },
+    {
+      "number": 89,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-2862",
+      "english": "Angled Grip",
+      "english_variants": [
+        "Angled Grip"
+      ],
+      "original_tc": "直角握把",
+      "hk": "斜角握把",
+      "reason": "Angled Grip是斜角握把，並非直角握把。",
+      "source_hash_fnv1a64": "50be5c4129e37b36"
+    },
+    {
+      "number": 90,
+      "category": "軍事及技術詞彙",
+      "review_id": "base-2386",
+      "english": "Shading Quality",
+      "english_variants": [
+        "Shading Quality"
+      ],
+      "original_tc": "表面品質",
+      "hk": "着色質素",
+      "reason": "Shading指着色，不能只泛稱物件表面。",
+      "source_hash_fnv1a64": "43638fbb455046b2"
+    },
+    {
+      "number": 91,
+      "category": "整句關係及場景意思",
+      "review_id": "base-3321",
+      "english": "It shouldn't have happened in the first place, sir. They sent us in half assed, so everyone can just keep pretending we're not at war.",
+      "english_variants": [
+        "It shouldn't have happened in the first place, sir. They sent us in half assed, so everyone can just keep pretending we're not at war."
+      ],
+      "original_tc": "事情根本就不該變成這樣，長官。上頭完全沒準備就派我們過來……好讓大家繼續假裝世界和平。",
+      "hk": "事情根本就不該發生，長官。他們準備不足就派我們過來，好讓所有人繼續假裝我們沒有開戰",
+      "reason": "準備草率不足不等於完全沒有準備；假裝我們沒有開戰也不等於假裝全球和平。",
+      "source_hash_fnv1a64": "5da417883b5a1ed6"
+    },
+    {
+      "number": 92,
+      "category": "整句關係及場景意思",
+      "review_id": "base-3054",
+      "english": "Mayhem-1, Sierra-1, we’re approaching from the north alley. Watch your fire.",
+      "english_variants": [
+        "Mayhem-1, Sierra-1, we’re approaching from the north alley. Watch your fire."
+      ],
+      "original_tc": "混亂1，我是S1，我們要通過北邊巷子了。不要開槍。",
+      "hk": "混亂1，這是S1。我們正從北面巷子接近，小心別誤擊友軍",
+      "reason": "approaching是從北面接近；Watch your fire提醒避免誤擊，不是全面停火。",
+      "source_hash_fnv1a64": "562515fa51b9f287"
+    },
+    {
+      "number": 93,
+      "category": "整句關係及場景意思",
+      "review_id": "base-3710",
+      "english": "Ready to rain hell.",
+      "english_variants": [
+        "Ready to rain hell."
+      ],
+      "original_tc": "準備好開戰了。",
+      "hk": "準備好猛烈轟炸了",
+      "reason": "rain hell在此是猛烈轟炸的形容，原譯只說準備開戰，漏了攻擊方式及強度。",
+      "source_hash_fnv1a64": "68212d40d5a460bf"
+    },
+    {
+      "number": 94,
+      "category": "整句關係及場景意思",
+      "review_id": "base-4305",
+      "english": "[You bastard! Don’t shoot at me!]",
+      "english_variants": [
+        "[You bastard! Don’t shoot at me!]"
+      ],
+      "original_tc": "［混帳！你敢對我開槍？］",
+      "hk": "［混帳！別對我開槍！］",
+      "reason": "Don’t shoot是禁止射擊的命令，原譯卻成了反問對方是否敢開槍。",
+      "source_hash_fnv1a64": "78c43c7a7f0268a6"
+    },
+    {
+      "number": 95,
+      "category": "整句關係及場景意思",
+      "review_id": "base-4316",
+      "english": "They’ll send more. They always do.",
+      "english_variants": [
+        "They’ll send more. They always do."
+      ],
+      "original_tc": "馬上會有人再來的，等著看。",
+      "hk": "他們會再派人來，他們每次都這樣",
+      "reason": "They always do說明對方一貫會再派人，原譯卻加了「馬上」及「等着看」。",
+      "source_hash_fnv1a64": "792a6555b123fc48"
+    },
+    {
+      "number": 96,
+      "category": "整句關係及場景意思",
+      "review_id": "base-1188",
+      "english": "[You fight with the enemy, you’ll die as the enemy.]",
+      "english_variants": [
+        "[You fight with the enemy, you’ll die as the enemy.]"
+      ],
+      "original_tc": "［你選擇跟敵人為伍，就得跟敵人一起死。］",
+      "hk": "［你跟敵人並肩作戰，就會被當成敵人殺死］",
+      "reason": "die as the enemy指被當成敵人殺死，原譯卻只說跟敵人一起死亡。",
+      "source_hash_fnv1a64": "21f149120b006c12"
+    },
+    {
+      "number": 97,
+      "category": "整句關係及場景意思",
+      "review_id": "base-813",
+      "english": "You lost them.",
+      "english_variants": [
+        "You lost them."
+      ],
+      "original_tc": "他們走掉了。",
+      "hk": "你跟丟他們了",
+      "reason": "You lost them指出你跟丟了人，原譯卻只說對方自行走掉。",
+      "source_hash_fnv1a64": "182b4bb9541bdec5"
+    },
+    {
+      "number": 98,
+      "category": "整句關係及場景意思",
+      "review_id": "base-3475",
+      "english": "I’m taking you in. You’re done.",
+      "english_variants": [
+        "I’m taking you in. You’re done."
+      ],
+      "original_tc": "我必須帶你回去，你投降吧。",
+      "hk": "我要逮捕你，你完了",
+      "reason": "taking you in是逮捕；You are done是宣告對方完了，不是請對方投降。",
+      "source_hash_fnv1a64": "61822e4d1b0f614b"
+    },
+    {
+      "number": 99,
+      "category": "整句關係及場景意思",
+      "review_id": "base-4311",
+      "english": "Visual on target, John! Come get some!",
+      "english_variants": [
+        "Visual on target, John! Come get some!"
+      ],
+      "original_tc": "目標自己上門了，約翰！不要客氣！",
+      "hk": "看到目標了，約翰！放馬過來！",
+      "reason": "Visual on target回報看到目標，不表示目標自己送上門；Come get some保留挑釁語氣。",
+      "source_hash_fnv1a64": "79035dcd04fe2ab1"
+    },
+    {
+      "number": 100,
+      "category": "整句關係及場景意思",
+      "review_id": "base-1157",
+      "english": "I don’t know where to go...",
+      "english_variants": [
+        "I don’t know where to go..."
+      ],
+      "original_tc": "是要怎麼爬上去？",
+      "hk": "我不知道該往哪裏走……",
+      "reason": "原文是不知道應該往哪裏走，沒有指定是尋找向上攀爬的方法。",
+      "source_hash_fnv1a64": "21587303a72bfda9"
+    }
+  ]
+}

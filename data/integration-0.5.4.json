@@ -1,0 +1,1692 @@
+{
+  "version": "0.5.4",
+  "text_input_version": "Gemini 0.5.3 + reviewed_335",
+  "total_exact_rules": 15639,
+  "new_rules_recovered": 335,
+  "existing_targets_changed": 285,
+  "integration_corrections": 108,
+  "changed_from_gemini": 157,
+  "pending_reference_rows": 0,
+  "context_questions": 24,
+  "all_campaign_review_complete": false,
+  "runtime_engine_unchanged": true,
+  "gemini_archive_sha256": "ed8f18ae7247e17d643c782d91ca20a7de12e3bb6636832af1eccda8f0419fe6",
+  "gemini_reference_input_sha256": "8bf7931f77b12875a273fc9f6f7962f8a886d1da3f821a570b872e00cbb820a3",
+  "recovered_rules": [
+    {
+      "review_id": "reference-42785",
+      "old": "跳下去。",
+      "new": "跳下去"
+    },
+    {
+      "review_id": "reference-42786",
+      "old": "跳下去！",
+      "new": "跳下去！"
+    },
+    {
+      "review_id": "reference-42810",
+      "old": "跳過去。",
+      "new": "跳過去"
+    },
+    {
+      "review_id": "reference-42811",
+      "old": "跳過去！",
+      "new": "跳過去！"
+    },
+    {
+      "review_id": "reference-42812",
+      "old": "跳過去，朴玄俊。",
+      "new": "跳過去，朴玄俊"
+    },
+    {
+      "review_id": "reference-42825",
+      "old": "踩在邊緣時小心點。",
+      "new": "踩在邊緣時小心點"
+    },
+    {
+      "review_id": "reference-42826",
+      "old": "踩欄杆。",
+      "new": "利用欄杆"
+    },
+    {
+      "review_id": "reference-42848",
+      "old": "躲到紅牆後面，快點。",
+      "new": "躲到紅牆後面，快點"
+    },
+    {
+      "review_id": "reference-42849",
+      "old": "躲在掩體後面！",
+      "new": "躲在掩體後面！"
+    },
+    {
+      "review_id": "reference-42850",
+      "old": "躲在掩體後！",
+      "new": "躲在掩體後！"
+    },
+    {
+      "review_id": "reference-42851",
+      "old": "躲在書架後面。",
+      "new": "躲在書架後面"
+    },
+    {
+      "review_id": "reference-42853",
+      "old": "躲好、躲好。",
+      "new": "躲好、躲好"
+    },
+    {
+      "review_id": "reference-42855",
+      "old": "躲起來，朴玄俊。你會被發現。",
+      "new": "快躲起來，朴玄俊。你在空曠處！"
+    },
+    {
+      "review_id": "reference-42858",
+      "old": "車廂裡有敵人。",
+      "new": "在車廂裏"
+    },
+    {
+      "review_id": "reference-42859",
+      "old": "車的引擎被打爆了。我們得推車。",
+      "new": "引擎報廢了。我們得推車"
+    },
+    {
+      "review_id": "reference-42863",
+      "old": "車頂上有射手。",
+      "new": "屋頂上有射手"
+    },
+    {
+      "review_id": "reference-42947",
+      "old": "載具摧毀了。",
+      "new": "載具已摧毀"
+    },
+    {
+      "review_id": "reference-42963",
+      "old": "載具被摧毀了。",
+      "new": "載具已摧毀"
+    },
+    {
+      "review_id": "reference-42998",
+      "old": "輕薄小巧的紅點瞄準鏡，能提供清晰的瞄準視野。",
+      "new": "輕薄小巧的紅點瞄準鏡，能提供清晰的瞄準視野"
+    },
+    {
+      "review_id": "reference-43073",
+      "old": "轉移火力打他們！",
+      "new": "轉移火力！消滅他們！"
+    },
+    {
+      "review_id": "reference-43076",
+      "old": "轟出你的怒火，陸戰隊。",
+      "new": "狠狠開火，陸戰隊員"
+    },
+    {
+      "review_id": "reference-43084",
+      "old": "辦公室安全了！",
+      "new": "辦公室已肅清！"
+    },
+    {
+      "review_id": "reference-43092",
+      "old": "農田隱藏地堡筆記",
+      "new": "農田隱藏地堡筆記"
+    },
+    {
+      "review_id": "reference-43144",
+      "old": "迫擊砲來了！",
+      "new": "迫擊炮已就緒！"
+    },
+    {
+      "review_id": "reference-43145",
+      "old": "迫擊砲來襲！",
+      "new": "迫擊炮彈來襲！"
+    },
+    {
+      "review_id": "reference-43146",
+      "old": "迫擊砲小隊瞄準我們了！你快解決掉他們！",
+      "new": "迫擊炮小隊瞄準我們了！你快解決掉他們！"
+    },
+    {
+      "review_id": "reference-43147",
+      "old": "迫擊砲就緒。",
+      "new": "迫擊炮就緒"
+    },
+    {
+      "review_id": "reference-43149",
+      "old": "迫擊砲發射！",
+      "new": "迫擊炮彈已發射！"
+    },
+    {
+      "review_id": "reference-43208",
+      "old": "退後，我來打開。",
+      "new": "退後，我來打開"
+    },
+    {
+      "review_id": "reference-43303",
+      "old": "這不算什麼……",
+      "new": "這不算甚麼……"
+    },
+    {
+      "review_id": "reference-43305",
+      "old": "這也太屌了。",
+      "new": "太厲害了！"
+    },
+    {
+      "review_id": "reference-43310",
+      "old": "這人渣竟然還能活著？",
+      "new": "這人渣竟然還能活着？"
+    },
+    {
+      "review_id": "reference-43311",
+      "old": "這件事別說出去。我最近都在用朱權給我的肥皂，我發現皮膚變得更緊緻，還……氣色變好了，真的有嚇到……，效果好到我整個人都在發光欸，我──我是陸戰隊，這樣會不會長得有點太好看啦。",
+      "new": "這件事只跟你說。我最近一直用朱權給我的洗面皂，發現皮膚好像越來越有光澤……也更緊緻了，但這效果也太誇張了，兄弟……我──我覺得自己簡直在發光。我──我是海軍陸戰隊員啊，我……我也太漂亮了"
+    },
+    {
+      "review_id": "reference-43319",
+      "old": "這個先進武器系統配備專用的鎖定瞄準鏡和空中爆炸式發射器。Han X20破空者能鎖定射程內特定區域發射20mm空爆彈，並在目標上空爆炸，造成毀滅性效果。非常適合迫使敵人離開掩體。直接命中會導致啞彈。 ",
+      "new": "這個先進武器系統配備專用的鎖定瞄準鏡和空中爆炸式發射器。Han X20破空者能鎖定射程內特定區域發射20mm空爆彈，並在目標上空爆炸，造成毀滅性效果。非常適合將敵人逼出掩體。直接命中會導致啞彈"
+    },
+    {
+      "review_id": "reference-43324",
+      "old": "這個區域安全了！",
+      "new": "此區域已肅清！"
+    },
+    {
+      "review_id": "reference-43342",
+      "old": "這到底是怎麼回事？",
+      "new": "這到底是甚麼？"
+    },
+    {
+      "review_id": "reference-43358",
+      "old": "這地方也太大了。",
+      "new": "這地方也太大了"
+    },
+    {
+      "review_id": "reference-43359",
+      "old": "這地方跟老鼠窩沒兩樣……",
+      "new": "這地方跟老鼠窩沒兩樣……"
+    },
+    {
+      "review_id": "reference-43418",
+      "old": "這是什麼？",
+      "new": "這是甚麼？"
+    },
+    {
+      "review_id": "reference-43420",
+      "old": "這是你來的目的。",
+      "new": "這是你來的目的"
+    },
+    {
+      "review_id": "reference-43421",
+      "old": "這是你想要的結果嗎？",
+      "new": "所以，事情終於變成這樣了，是嗎？"
+    },
+    {
+      "review_id": "reference-43439",
+      "old": "這是死路……",
+      "new": "這是死路……"
+    },
+    {
+      "review_id": "reference-43447",
+      "old": "這條路過不去……",
+      "new": "這條路過不去……"
+    },
+    {
+      "review_id": "reference-43450",
+      "old": "這樣沒辦法開槍！",
+      "new": "這樣沒辦法開槍！"
+    },
+    {
+      "review_id": "reference-43451",
+      "old": "這次換你去吧？",
+      "new": "這次換你去吧？"
+    },
+    {
+      "review_id": "reference-43466",
+      "old": "這背包我收了。",
+      "new": "這背包我收了"
+    },
+    {
+      "review_id": "reference-43469",
+      "old": "這裡有武器。",
+      "new": "我們這邊上面有武器"
+    },
+    {
+      "review_id": "reference-43472",
+      "old": "這邊。",
+      "new": "這邊"
+    },
+    {
+      "review_id": "reference-43474",
+      "old": "這邊，朴玄俊，我們快到潛艇停泊區了。",
+      "new": "這邊，朴玄俊，我們快到潛艇停泊區了"
+    },
+    {
+      "review_id": "reference-43567",
+      "old": "連殺獎勵：區域過於擁擠。",
+      "new": "連殺獎勵：區域過於擁擠"
+    },
+    {
+      "review_id": "reference-43568",
+      "old": "連殺獎勵：已達到啟用上限",
+      "new": "連殺獎勵：已達到啟用上限"
+    },
+    {
+      "review_id": "reference-43569",
+      "old": "連殺獎勵：已達到啟用上限。",
+      "new": "連殺獎勵：已達到啟用上限"
+    },
+    {
+      "review_id": "reference-43570",
+      "old": "連殺獎勵：已達到啟用上限，需再等待&&1秒。",
+      "new": "連殺獎勵：已達到啟用上限，需再等待&&1秒"
+    },
+    {
+      "review_id": "reference-43571",
+      "old": "連殺獎勵：已達到小隊啟用上限。",
+      "new": "連殺獎勵：已達到小隊啟用上限"
+    },
+    {
+      "review_id": "reference-43572",
+      "old": "連殺獎勵：已達到小隊啟用上限，需再等待&&1秒。",
+      "new": "連殺獎勵：已達到小隊啟用上限，需再等待&&1秒"
+    },
+    {
+      "review_id": "reference-43573",
+      "old": "連殺獎勵：戰鬥空間太過擁擠，將需再等待&&1秒。",
+      "new": "連殺獎勵：戰鬥空間太過擁擠，將需再等待&&1秒"
+    },
+    {
+      "review_id": "reference-43575",
+      "old": "連殺獎勵：過多啟用中。",
+      "new": "連殺獎勵：過多啟用中"
+    },
+    {
+      "review_id": "reference-43576",
+      "old": "連殺獎勵：過多啟用中，需再等待&&1秒。",
+      "new": "連殺獎勵：過多啟用中，需再等待&&1秒"
+    },
+    {
+      "review_id": "reference-43605",
+      "old": "連續按下[{+speed_throw}] / [{+attack}]會導致你被擊中。",
+      "new": "連續按下[{+speed_throw}] / [{+attack}]會導致你被擊中"
+    },
+    {
+      "review_id": "reference-43609",
+      "old": "連續格擋（長按[{+speed_throw}]）太多次攻擊會被擊倒在地。",
+      "new": "連續格擋（長按[{+speed_throw}]）太多次攻擊會被擊倒在地"
+    },
+    {
+      "review_id": "reference-43634",
+      "old": "進來裡面了。",
+      "new": "正在進入室內"
+    },
+    {
+      "review_id": "reference-43635",
+      "old": "進來！快！快！",
+      "new": "進來！快！快！"
+    },
+    {
+      "review_id": "reference-43666",
+      "old": "進入點在隔壁建築物裡。",
+      "new": "進入點在隔壁建築物裏"
+    },
+    {
+      "review_id": "reference-43705",
+      "old": "進階的熱成像瞄準鏡，可在低能見度的環境中鎖定目標。",
+      "new": "進階的熱成像瞄準鏡，可在低能見度的環境中鎖定目標"
+    },
+    {
+      "review_id": "reference-43708",
+      "old": "進階遠距離8倍瞄準鏡，附帶熱成像裝置。",
+      "new": "進階遠距離8倍瞄準鏡，附帶熱成像裝置"
+    },
+    {
+      "review_id": "reference-43827",
+      "old": "運輸卡車",
+      "new": "運輸貨車"
+    },
+    {
+      "review_id": "reference-43836",
+      "old": "過橋下。",
+      "new": "在橋下"
+    },
+    {
+      "review_id": "reference-43933",
+      "old": "遠離他們的射程！",
+      "new": "遠離他們的射程！"
+    },
+    {
+      "review_id": "reference-43945",
+      "old": "遭到敵襲！",
+      "new": "遭到敵襲！"
+    },
+    {
+      "review_id": "reference-44325",
+      "old": "避開探照燈。",
+      "new": "避開探照燈"
+    },
+    {
+      "review_id": "reference-44326",
+      "old": "避開燈光！",
+      "new": "避開燈光！"
+    },
+    {
+      "review_id": "reference-44356",
+      "old": "還剩兩輛載具！",
+      "new": "還剩兩輛載具！"
+    },
+    {
+      "review_id": "reference-44363",
+      "old": "還差一點！",
+      "new": "快到對面了！"
+    },
+    {
+      "review_id": "reference-44365",
+      "old": "還是沒找到……",
+      "new": "還是沒找到……"
+    },
+    {
+      "review_id": "reference-44370",
+      "old": "還有兩輛載具。",
+      "new": "還有兩輛載具"
+    },
+    {
+      "review_id": "reference-44371",
+      "old": "還有兩輛載具！",
+      "new": "還有兩輛載具！"
+    },
+    {
+      "review_id": "reference-44372",
+      "old": "還有其他人！",
+      "new": "連鎖爆炸！"
+    },
+    {
+      "review_id": "reference-44392",
+      "old": "那些人全死了。",
+      "new": "那些人全死了"
+    },
+    {
+      "review_id": "reference-44393",
+      "old": "那些是平民，別開槍。",
+      "new": "那些是平民，別開槍"
+    },
+    {
+      "review_id": "reference-44394",
+      "old": "那些車都去哪了？",
+      "new": "那些車都去哪了？"
+    },
+    {
+      "review_id": "reference-44395",
+      "old": "那你應該很喜歡……挑戰？",
+      "new": "你不是很享受這些……苦難嗎？"
+    },
+    {
+      "review_id": "reference-44396",
+      "old": "那個大的灰色建築那邊。",
+      "new": "那個大的灰色建築那邊"
+    },
+    {
+      "review_id": "reference-44397",
+      "old": "那傢伙拿了RPG！",
+      "new": "那傢伙拿了RPG！"
+    },
+    {
+      "review_id": "reference-44398",
+      "old": "那傢伙有RPG！",
+      "new": "那傢伙有RPG！"
+    },
+    {
+      "review_id": "reference-44399",
+      "old": "那在哪裡？",
+      "new": "那在哪裏？"
+    },
+    {
+      "review_id": "reference-44401",
+      "old": "那我該怎麼稱呼你？上尉？",
+      "new": "那我該怎麼稱呼你？上尉？"
+    },
+    {
+      "review_id": "reference-44402",
+      "old": "那旁邊是山頂建築，你從那裡進去。",
+      "new": "隔壁就是峰會大樓。你要從那裏進入"
+    },
+    {
+      "review_id": "reference-44403",
+      "old": "那是有尿騷味的魚。",
+      "new": "那是有尿騷味的魚"
+    },
+    {
+      "review_id": "reference-44404",
+      "old": "那是米蓮娜。",
+      "new": "那是米蓮娜"
+    },
+    {
+      "review_id": "reference-44406",
+      "old": "那根橫梁。",
+      "new": "那根橫梁"
+    },
+    {
+      "review_id": "reference-44407",
+      "old": "那要怎麼叫你？",
+      "new": "那要怎麼叫你？"
+    },
+    {
+      "review_id": "reference-44410",
+      "old": "那邊有太多友軍了！",
+      "new": "那邊有太多友軍了！"
+    },
+    {
+      "review_id": "reference-44411",
+      "old": "那邊沒人。",
+      "new": "那邊已經甚麼都沒有了"
+    },
+    {
+      "review_id": "reference-44435",
+      "old": "部分視野",
+      "new": "部分視野"
+    },
+    {
+      "review_id": "reference-44470",
+      "old": "鄧恩、［朴二等兵，］跟我來。",
+      "new": "鄧恩、［朴二等兵］，跟我來"
+    },
+    {
+      "review_id": "reference-44472",
+      "old": "鄧恩還在裡面！去支援他！",
+      "new": "鄧恩還在裏面！去支援他！"
+    },
+    {
+      "review_id": "reference-44473",
+      "old": "鄧恩！",
+      "new": "鄧恩！"
+    },
+    {
+      "review_id": "reference-44474",
+      "old": "鄧恩！迫擊砲小隊解決了嗎？",
+      "new": "鄧恩！迫擊炮小隊解決了嗎？"
+    },
+    {
+      "review_id": "reference-44475",
+      "old": "鄧恩！迫擊砲從北邊打來！解決他們！",
+      "new": "鄧恩！迫擊炮從北邊打來！解決他們！"
+    },
+    {
+      "review_id": "reference-44476",
+      "old": "鄧恩，你負責那一邊。",
+      "new": "鄧恩，你負責那一邊"
+    },
+    {
+      "review_id": "reference-44477",
+      "old": "鄧恩，已標記目標。",
+      "new": "鄧恩，已標記目標"
+    },
+    {
+      "review_id": "reference-44478",
+      "old": "鄧恩，打迫擊砲過來。",
+      "new": "鄧恩，向這裏發射迫擊炮彈"
+    },
+    {
+      "review_id": "reference-44479",
+      "old": "鄧恩，發射迫擊砲！",
+      "new": "鄧恩，發射迫擊炮彈！"
+    },
+    {
+      "review_id": "reference-44480",
+      "old": "鄧恩，確認生還者。",
+      "new": "鄧恩，查看有沒有生還者"
+    },
+    {
+      "review_id": "reference-44887",
+      "old": "重型槍栓，可讓上膛更順暢，保持武器瞄準目標以進行後續射擊。",
+      "new": "重型槍栓，可讓上膛更順暢，保持武器瞄準目標以進行後續射擊"
+    },
+    {
+      "review_id": "reference-44932",
+      "old": "重新裝填燃燒彈。",
+      "new": "重新裝填燃燒彈"
+    },
+    {
+      "review_id": "reference-44933",
+      "old": "重新裝填飛彈。",
+      "new": "重新裝填導彈"
+    },
+    {
+      "review_id": "reference-45193",
+      "old": "鎮暴盾",
+      "new": "防暴盾牌"
+    },
+    {
+      "review_id": "reference-45261",
+      "old": "門口！",
+      "new": "門口！"
+    },
+    {
+      "review_id": "reference-45262",
+      "old": "門在這裡。",
+      "new": "門在這裏"
+    },
+    {
+      "review_id": "reference-45265",
+      "old": "門沒開……",
+      "new": "門沒開……"
+    },
+    {
+      "review_id": "reference-45267",
+      "old": "門鎖住了，我進不去。",
+      "new": "門鎖住了，我進不去"
+    },
+    {
+      "review_id": "reference-45274",
+      "old": "閃光彈丟出。",
+      "new": "閃光彈已投出"
+    },
+    {
+      "review_id": "reference-45348",
+      "old": "開戰了！",
+      "new": "準備公開交火！"
+    },
+    {
+      "review_id": "reference-45352",
+      "old": "開槍啊，［兄弟。］",
+      "new": "開槍，［惡徒］"
+    },
+    {
+      "review_id": "reference-45357",
+      "old": "開火吧，朴玄俊。",
+      "new": "開火吧，朴玄俊"
+    },
+    {
+      "review_id": "reference-45370",
+      "old": "開近一點──再來交給我。",
+      "new": "開近一點──再來交給我"
+    },
+    {
+      "review_id": "reference-45372",
+      "old": "開門，右側。",
+      "new": "右側有一扇開着的門"
+    },
+    {
+      "review_id": "reference-45381",
+      "old": "閱讀筆記",
+      "new": "閱讀筆記"
+    },
+    {
+      "review_id": "reference-45498",
+      "old": "附加可架槍的腳架，可大幅提升後座力控制。",
+      "new": "附加可架槍的腳架，可大幅提升後座力控制"
+    },
+    {
+      "review_id": "reference-45633",
+      "old": "階梯式彈道修正",
+      "new": "階梯式彈道修正"
+    },
+    {
+      "review_id": "reference-45741",
+      "old": "雕像旁的建築。",
+      "new": "雕像旁的建築"
+    },
+    {
+      "review_id": "reference-45770",
+      "old": "雙持Wz.55 STRIGA衝鋒槍並向前方發射彈雨，但會犧牲準確度。",
+      "new": "雙持Wz.55 STRIGA衝鋒槍並向前方發射彈雨，但會犧牲準確度"
+    },
+    {
+      "review_id": "reference-45779",
+      "old": "雙持武器",
+      "new": "雙持武器"
+    },
+    {
+      "review_id": "reference-45860",
+      "old": "離開河床。",
+      "new": "離開河床"
+    },
+    {
+      "review_id": "reference-45861",
+      "old": "離開空曠的地方！",
+      "new": "離開空曠的地方！"
+    },
+    {
+      "review_id": "reference-45871",
+      "old": "離開那裡！快跳！",
+      "new": "離開那裏！快跳！"
+    },
+    {
+      "review_id": "reference-45884",
+      "old": "難怪你叫我準備重型武器。",
+      "new": "現在我明白你為何想多帶些重裝備了"
+    },
+    {
+      "review_id": "reference-45913",
+      "old": "雷射導引飛彈",
+      "new": "激光導引導彈"
+    },
+    {
+      "review_id": "reference-45916",
+      "old": "雷射！",
+      "new": "激光！"
+    },
+    {
+      "review_id": "reference-46127",
+      "old": "靜點",
+      "new": "靜點"
+    },
+    {
+      "review_id": "reference-46171",
+      "old": "靠杯……",
+      "new": "糟了……"
+    },
+    {
+      "review_id": "reference-46173",
+      "old": "靠！交戰了！",
+      "new": "糟了！我遇到敵人了！"
+    },
+    {
+      "review_id": "reference-46174",
+      "old": "靠！左邊！老大──",
+      "new": "糟了！在左邊！老大──"
+    },
+    {
+      "review_id": "reference-46175",
+      "old": "靠！載具毀了！",
+      "new": "糟了！跟丟他們了！"
+    },
+    {
+      "review_id": "reference-46176",
+      "old": "靠，我完全沒聽到你們的聲音。",
+      "new": "可惡，我完全沒聽到你們的聲音"
+    },
+    {
+      "review_id": "reference-46177",
+      "old": "靠，朴玄俊。你他媽的是個狠人，你知道嗎？",
+      "new": "天啊，朴玄俊。你真是個瘋子，你知道嗎？"
+    },
+    {
+      "review_id": "reference-46178",
+      "old": "靠，門還是沒通電。",
+      "new": "可惡，還是要有電才行"
+    },
+    {
+      "review_id": "reference-46194",
+      "old": "韓國女生不喜歡穿軍裝的帥哥？",
+      "new": "韓國女生不喜歡穿軍服的男人嗎？"
+    },
+    {
+      "review_id": "reference-46474",
+      "old": "飛彈升空了……！",
+      "new": "導彈升空了……！"
+    },
+    {
+      "review_id": "reference-46480",
+      "old": "飛彈裝填中！",
+      "new": "正在裝填發射器！"
+    },
+    {
+      "review_id": "reference-46531",
+      "old": "香辣泡麵……",
+      "new": "香辣即食麵……"
+    },
+    {
+      "review_id": "reference-46539",
+      "old": "馬卡洛夫。",
+      "new": "馬卡洛夫"
+    },
+    {
+      "review_id": "reference-46540",
+      "old": "馬卡洛夫在哪裡？",
+      "new": "馬卡洛夫在哪裏？"
+    },
+    {
+      "review_id": "reference-46541",
+      "old": "馬卡洛夫！",
+      "new": "馬卡洛夫！"
+    },
+    {
+      "review_id": "reference-46648",
+      "old": "高中尉，你帶路。",
+      "new": "高中尉，你帶路"
+    },
+    {
+      "review_id": "reference-46649",
+      "old": "高中尉，繼續推進。",
+      "new": "高中尉，繼續推進"
+    },
+    {
+      "review_id": "reference-46695",
+      "old": "高架橋下！",
+      "new": "高架橋下！"
+    },
+    {
+      "review_id": "reference-46706",
+      "old": "高輸出5毫瓦雷射，可大幅提升操控性。瞄準時光束會被敵人看見。",
+      "new": "高輸出5毫瓦激光，可大幅提升操控性。瞄準時光束會被敵人看見"
+    },
+    {
+      "review_id": "reference-46711",
+      "old": "高鎮赫，你被抓到了會怎麼樣？",
+      "new": "高鎮赫，你被抓到了會怎麼樣？"
+    },
+    {
+      "review_id": "reference-46712",
+      "old": "高鎮赫，我們到潛艇停泊區的門了。",
+      "new": "高鎮赫，我們到潛艇停泊區的門了"
+    },
+    {
+      "review_id": "reference-46805",
+      "old": "黃色那台！",
+      "new": "黃色那部！"
+    },
+    {
+      "review_id": "reference-46806",
+      "old": "黃色餐車！",
+      "new": "黃色那個！"
+    },
+    {
+      "review_id": "reference-46810",
+      "old": "黃金",
+      "new": "黃金"
+    },
+    {
+      "review_id": "reference-47023",
+      "old": "（中彈呻吟聲）",
+      "new": "（中彈呻吟聲）"
+    },
+    {
+      "review_id": "reference-47026",
+      "old": "（咳嗽聲）",
+      "new": "（咳嗽聲）"
+    },
+    {
+      "review_id": "reference-47027",
+      "old": "（嘆氣）",
+      "new": "（嘆氣）"
+    },
+    {
+      "review_id": "reference-47062",
+      "old": "［……大雞雞。］",
+      "new": "［……性愛機器］"
+    },
+    {
+      "review_id": "reference-47063",
+      "old": "［……是那兩個同志的房子。］",
+      "new": "［……那邊那兩個同志］"
+    },
+    {
+      "review_id": "reference-47065",
+      "old": "［不……不要！住手！我不想死。拜託別殺了我。求求你！］",
+      "new": "［不……不要！住手！我不想死。拜託別殺了我。求求你！］"
+    },
+    {
+      "review_id": "reference-47066",
+      "old": "［不……］",
+      "new": "［不……］"
+    },
+    {
+      "review_id": "reference-47067",
+      "old": "［不行，立刻出來。］",
+      "new": "［不行，立刻出來］"
+    },
+    {
+      "review_id": "reference-47068",
+      "old": "［什麼意思？］",
+      "new": "［甚麼意思？］"
+    },
+    {
+      "review_id": "reference-47069",
+      "old": "［他們分開了！］",
+      "new": "［他們分開了！］"
+    },
+    {
+      "review_id": "reference-47070",
+      "old": "［他們在殺人！］",
+      "new": "［他們在殺人！］"
+    },
+    {
+      "review_id": "reference-47071",
+      "old": "［他們就愛來這套。］",
+      "new": "［他們就愛來這套］"
+    },
+    {
+      "review_id": "reference-47072",
+      "old": "［他們要堵死我!］",
+      "new": "［他們正包圍我！］"
+    },
+    {
+      "review_id": "reference-47073",
+      "old": "［他們要攔下我們！］",
+      "new": "［它想截住我！］"
+    },
+    {
+      "review_id": "reference-47074",
+      "old": "［他躲在隔壁那間空屋裡！］",
+      "new": "［他躲在隔壁那間空屋裏！］"
+    },
+    {
+      "review_id": "reference-47076",
+      "old": "［你們為什麼要殺她……求你們住手。］",
+      "new": "［你們本來不必殺她……求求你們……住手吧］"
+    },
+    {
+      "review_id": "reference-47077",
+      "old": "［你呢，同志？你也是懦夫嗎？］",
+      "new": "［你呢，同志？你也是懦夫嗎？］"
+    },
+    {
+      "review_id": "reference-47078",
+      "old": "［你在說什麼？］",
+      "new": "［你在說甚麼？］"
+    },
+    {
+      "review_id": "reference-47079",
+      "old": "［你坐副駕，負責掩護他。］",
+      "new": "［你坐前座，掩護他］"
+    },
+    {
+      "review_id": "reference-47081",
+      "old": "［你聽見了嗎？］",
+      "new": "［你聽見了嗎？］"
+    },
+    {
+      "review_id": "reference-47082",
+      "old": "［你這個賤人──］",
+      "new": "［你這個賤人──］"
+    },
+    {
+      "review_id": "reference-47083",
+      "old": "［保護控制台！］",
+      "new": "［保護控制台！］"
+    },
+    {
+      "review_id": "reference-47084",
+      "old": "［做得很好。］",
+      "new": "［做得很好］"
+    },
+    {
+      "review_id": "reference-47085",
+      "old": "［停。］",
+      "new": "［停］"
+    },
+    {
+      "review_id": "reference-47086",
+      "old": "［停下來！］",
+      "new": "［停下來！］"
+    },
+    {
+      "review_id": "reference-47087",
+      "old": "［停！］",
+      "new": "［停！］"
+    },
+    {
+      "review_id": "reference-47088",
+      "old": "［全都別想活著離開。］",
+      "new": "［全都別想活着離開］"
+    },
+    {
+      "review_id": "reference-47089",
+      "old": "［准允交戰！消滅入侵者！］",
+      "new": "［准許交戰！消滅入侵者！］"
+    },
+    {
+      "review_id": "reference-47090",
+      "old": "［出來吧，我們談談。］",
+      "new": "［出來吧，我們談談］"
+    },
+    {
+      "review_id": "reference-47091",
+      "old": "［出發、出發、出發。］",
+      "new": "發射。發射。發射"
+    },
+    {
+      "review_id": "reference-47092",
+      "old": "［別傷害我。］",
+      "new": "［別傷害我］"
+    },
+    {
+      "review_id": "reference-47093",
+      "old": "［別動。］",
+      "new": "［別動］"
+    },
+    {
+      "review_id": "reference-47094",
+      "old": "［別管，繼續開車！］",
+      "new": "［別管，繼續開車！］"
+    },
+    {
+      "review_id": "reference-47095",
+      "old": "［別讓他們集結起來！］",
+      "new": "［別讓他們集結起來！］"
+    },
+    {
+      "review_id": "reference-47096",
+      "old": "［別讓他跑了！］",
+      "new": "［別讓他跑了！］"
+    },
+    {
+      "review_id": "reference-47097",
+      "old": "［別跑！壓低身體，別讓他們聽見您！］",
+      "new": "［別跑！壓低身子，別讓他們聽到你！］"
+    },
+    {
+      "review_id": "reference-47098",
+      "old": "［前進。］",
+      "new": "［前進］"
+    },
+    {
+      "review_id": "reference-47099",
+      "old": "［前面有敵人──右轉！］",
+      "new": "［前面有敵人──右轉！］"
+    },
+    {
+      "review_id": "reference-47100",
+      "old": "［動作快，貼牆移動。］",
+      "new": "［動作快，貼牆移動］"
+    },
+    {
+      "review_id": "reference-47101",
+      "old": "［南邊的砲兵陣地有人被殺了。］",
+      "new": "［南面的炮兵陣地有士兵被殺了］"
+    },
+    {
+      "review_id": "reference-47102",
+      "old": "［卡車旁邊！集中火力！］",
+      "new": "［貨車旁邊！集中火力！］"
+    },
+    {
+      "review_id": "reference-47103",
+      "old": "［叛逃者在哪裡？］",
+      "new": "［叛逃者在哪裏？］"
+    },
+    {
+      "review_id": "reference-47104",
+      "old": "［可以發射了！］",
+      "new": "［可以發射了！］"
+    },
+    {
+      "review_id": "reference-47105",
+      "old": "［右轉！］",
+      "new": "［右轉！］"
+    },
+    {
+      "review_id": "reference-47106",
+      "old": "［同志，跟著我。］",
+      "new": "［同志，跟着我］"
+    },
+    {
+      "review_id": "reference-47107",
+      "old": "［同志，進去找叛逃者。］",
+      "new": "［同志，進去找叛逃者］"
+    },
+    {
+      "review_id": "reference-47108",
+      "old": "［呃，嗯……］",
+      "new": "［呃，嗯……］"
+    },
+    {
+      "review_id": "reference-47109",
+      "old": "［哇靠別鬧了。］",
+      "new": "［我的天啊］"
+    },
+    {
+      "review_id": "reference-47110",
+      "old": "［哪裡？］",
+      "new": "［哪裏？］"
+    },
+    {
+      "review_id": "reference-47111",
+      "old": "［啊，等……等、等一下……］",
+      "new": "［啊，等……等、等一下……］"
+    },
+    {
+      "review_id": "reference-47112",
+      "old": "［喂！］他們有夜視鏡！",
+      "new": "［喂！］他們在用夜視鏡！"
+    },
+    {
+      "review_id": "reference-47113",
+      "old": "［喂，朴二等兵，］中尉要你立刻滾回餐廳裡去。",
+      "new": "［喂，朴二等兵］，中尉叫你立即滾回餐廳"
+    },
+    {
+      "review_id": "reference-47114",
+      "old": "［喂，朴二等兵，］這邊沒事。你回到中尉那邊去。",
+      "new": "［喂，朴二等兵］，這邊沒事了。回去跟着中尉"
+    },
+    {
+      "review_id": "reference-47115",
+      "old": "［喔，別擔心……］",
+      "new": "［喔，別擔心……］"
+    },
+    {
+      "review_id": "reference-47116",
+      "old": "［喔，老天──］",
+      "new": "［喔，老天──］"
+    },
+    {
+      "review_id": "reference-47118",
+      "old": "［嘿──］你抬另一邊。",
+      "new": "［喂──］抓住另一邊"
+    },
+    {
+      "review_id": "reference-47119",
+      "old": "［嘿！］那邊離友軍太近了！",
+      "new": "［喂！］那邊離友軍太近了！"
+    },
+    {
+      "review_id": "reference-47120",
+      "old": "［報告中士，我檢查過口糧了，全部都還在。我剛剛只是一時糊塗了……］",
+      "new": "［報告中士，我檢查過口糧了，份量是足夠的。我剛才只是有點糊塗……］"
+    },
+    {
+      "review_id": "reference-47121",
+      "old": "［塞你耳朵裡，不是嘴巴裡啊。］",
+      "new": "［是塞進耳朵，不是嘴巴］"
+    },
+    {
+      "review_id": "reference-47122",
+      "old": "［壓低身子快跑過去！］",
+      "new": "［壓低身子快跑過去！］"
+    },
+    {
+      "review_id": "reference-47125",
+      "old": "［大雞雞來了！］",
+      "new": "［我是性愛機器！］"
+    },
+    {
+      "review_id": "reference-47126",
+      "old": "［她根本不知道自己在說什麼。］",
+      "new": "［她根本不知道自己在說甚麼］"
+    },
+    {
+      "review_id": "reference-47127",
+      "old": "［她說的是真的！］",
+      "new": "［她說的是真的！］"
+    },
+    {
+      "review_id": "reference-47128",
+      "old": "［好，安全了。］",
+      "new": "［好，安全了］"
+    },
+    {
+      "review_id": "reference-47129",
+      "old": "［媽的……］",
+      "new": "［糟了……］"
+    },
+    {
+      "review_id": "reference-47130",
+      "old": "［媽的！］他們殺了那些人！",
+      "new": "［可惡！］他們剛殺了那些人！"
+    },
+    {
+      "review_id": "reference-47132",
+      "old": "［客廳安全。］",
+      "new": "［客廳安全］"
+    },
+    {
+      "review_id": "reference-47139",
+      "old": "［就戰鬥位置！］",
+      "new": "［各就各位！］"
+    },
+    {
+      "review_id": "reference-47140",
+      "old": "［工具是他提供的！他幫了他們！他是叛逃者！］",
+      "new": "［他借出工具！還幫他們挖掘！他是叛徒！］"
+    },
+    {
+      "review_id": "reference-47141",
+      "old": "［左轉！］",
+      "new": "［左轉！］"
+    },
+    {
+      "review_id": "reference-47149",
+      "old": "［幹爽啦。］",
+      "new": "走吧！"
+    },
+    {
+      "review_id": "reference-47150",
+      "old": "［廚房安全。］",
+      "new": "［廚房安全］"
+    },
+    {
+      "review_id": "reference-47152",
+      "old": "［弄暈他。］",
+      "new": "［弄暈他］"
+    },
+    {
+      "review_id": "reference-47153",
+      "old": "［往右邊！］",
+      "new": "［往右邊！］"
+    },
+    {
+      "review_id": "reference-47154",
+      "old": "［很好，把鄧恩拉上來，我們走。］",
+      "new": "［對，也把鄧恩帶上。我們走］"
+    },
+    {
+      "review_id": "reference-47155",
+      "old": "［快離開這裡！］",
+      "new": "［快離開這裏！］"
+    },
+    {
+      "review_id": "reference-47156",
+      "old": "［快點。］走吧。",
+      "new": "［快點。］走吧"
+    },
+    {
+      "review_id": "reference-47157",
+      "old": "［您可以跳了，安全了。］",
+      "new": "［可以跳到對面去，很安全］"
+    },
+    {
+      "review_id": "reference-47158",
+      "old": "［感恩。］",
+      "new": "［謝謝］"
+    },
+    {
+      "review_id": "reference-47159",
+      "old": "［戈多怎麼辦？］",
+      "new": "［戈多怎麼辦？］"
+    },
+    {
+      "review_id": "reference-47160",
+      "old": "［戈多死了！我們被壓制了！］",
+      "new": "［戈多死了！我們被壓制了！］"
+    },
+    {
+      "review_id": "reference-47161",
+      "old": "［戈多，右轉！］",
+      "new": "［戈多，右轉！］"
+    },
+    {
+      "review_id": "reference-47162",
+      "old": "［我……］",
+      "new": "［我……］"
+    },
+    {
+      "review_id": "reference-47163",
+      "old": "［我、我一直都很敬重您，您是朝鮮的榮耀和典範，是真理的化身……我不會讓您失望……我沒有說謊──］",
+      "new": "［我、我一直都很敬重您，您是朝鮮的榮耀和典範，是真理的化身……我不會讓您失望……我沒有說謊──］"
+    },
+    {
+      "review_id": "reference-47164",
+      "old": "［我們之中也出現叛逃者了。］",
+      "new": "［我們之中又有一個叛徒］"
+    },
+    {
+      "review_id": "reference-47165",
+      "old": "［我們得帶您到避難所，請跟緊我們。］",
+      "new": "［我們得帶您到地堡，請跟緊我們］"
+    },
+    {
+      "review_id": "reference-47166",
+      "old": "［我們看到叛逃者跑進隔壁的廢棄房子裡了。］",
+      "new": "［我們看到叛逃者跑進隔壁的廢棄房子裏了］"
+    },
+    {
+      "review_id": "reference-47167",
+      "old": "［我們馬上就到了。］",
+      "new": "［我們正趕去你那裏］"
+    },
+    {
+      "review_id": "reference-47168",
+      "old": "［我全都說了！拜託！我跟那些懦夫不一樣！請不要殺我。你可以選擇的吧，同志？］",
+      "new": "［我全都說了！拜託！我跟那些懦夫不一樣！請不要殺我。你可以選擇的吧，同志？］"
+    },
+    {
+      "review_id": "reference-47169",
+      "old": "［我是……大雞雞……］",
+      "new": "［我是……性愛機器……］"
+    },
+    {
+      "review_id": "reference-47170",
+      "old": "［我有孩子……］",
+      "new": "［我有孩子……］"
+    },
+    {
+      "review_id": "reference-47171",
+      "old": "［我有聽到奇怪的聲響，是從鄰居那傳出來的……］",
+      "new": "［之前聽過奇怪的聲音，是從鄰居家傳來的……］"
+    },
+    {
+      "review_id": "reference-47172",
+      "old": "［我真的有聽到，昨天半夜有挖東西的聲音——］",
+      "new": "［我確實聽到了，就在昨天！挖掘的聲音一直持續到深夜──］"
+    },
+    {
+      "review_id": "reference-47173",
+      "old": "［我要把你們碎屍萬段！］",
+      "new": "［我要打斷你們的肋骨！］"
+    },
+    {
+      "review_id": "reference-47174",
+      "old": "［我說可以了再移動。］",
+      "new": "［我說可以了再移動］"
+    },
+    {
+      "review_id": "reference-47175",
+      "old": "［戴防毒面具！］",
+      "new": "［戴上面罩！］"
+    },
+    {
+      "review_id": "reference-47176",
+      "old": "［找到他。］",
+      "new": "［找到他］"
+    },
+    {
+      "review_id": "reference-47177",
+      "old": "［找到你了！］",
+      "new": "［找到你了！］"
+    },
+    {
+      "review_id": "reference-47178",
+      "old": "［找到目標了，抓住他］",
+      "new": "［已確認要抓捕的目標］"
+    },
+    {
+      "review_id": "reference-47180",
+      "old": "［攻擊地面部隊！］",
+      "new": "［攻擊地面部隊！］"
+    },
+    {
+      "review_id": "reference-47181",
+      "old": "［敵方戰車要包抄我們！］",
+      "new": "［敵方坦克正試圖包抄我們！］"
+    },
+    {
+      "review_id": "reference-47182",
+      "old": "［是一個……］",
+      "new": "［是一個……］"
+    },
+    {
+      "review_id": "reference-47183",
+      "old": "［是那台廂型車！他們在這裡！］",
+      "new": "［是那部客貨車！他們在這裏！］"
+    },
+    {
+      "review_id": "reference-47184",
+      "old": "［是，長官……我這就做。］",
+      "new": "［是，長官……我這就做］"
+    },
+    {
+      "review_id": "reference-47185",
+      "old": "［最高領導人李周英萬歲！］",
+      "new": "［為最高領導人李周英而戰！］"
+    },
+    {
+      "review_id": "reference-47186",
+      "old": "［有敵人！］",
+      "new": "［有敵人！］"
+    },
+    {
+      "review_id": "reference-47187",
+      "old": "［有更多敵方車輛追進隧道了！］",
+      "new": "［又有更多敵人沿隧道過來！］"
+    },
+    {
+      "review_id": "reference-47189",
+      "old": "［朴二等兵，注意後方！］",
+      "new": "［朴二等兵，注意後方！］"
+    },
+    {
+      "review_id": "reference-47190",
+      "old": "［朴二等兵，走了！集合！］",
+      "new": "［朴二等兵，走了！集合！］"
+    },
+    {
+      "review_id": "reference-47191",
+      "old": "［朴二等兵，］上樓。",
+      "new": "［朴二等兵，］上樓"
+    },
+    {
+      "review_id": "reference-47192",
+      "old": "［朴二等兵，］丟破片手榴彈！",
+      "new": "［朴二等兵，］丟破片手榴彈！"
+    },
+    {
+      "review_id": "reference-47193",
+      "old": "［朴二等兵，］你的右邊。",
+      "new": "［朴二等兵，］你的右邊"
+    },
+    {
+      "review_id": "reference-47194",
+      "old": "［朴二等兵，］你行動。",
+      "new": "［朴二等兵］，等你行動"
+    },
+    {
+      "review_id": "reference-47195",
+      "old": "［朴二等兵，］你負責帶隊。",
+      "new": "［朴二等兵］，你負責打頭陣"
+    },
+    {
+      "review_id": "reference-47196",
+      "old": "［朴二等兵，］加油，我們快脫困了！",
+      "new": "［朴二等兵，］加油，我們快脫困了！"
+    },
+    {
+      "review_id": "reference-47197",
+      "old": "［朴二等兵，］回答！",
+      "new": "［朴二等兵］，請回答！"
+    },
+    {
+      "review_id": "reference-47198",
+      "old": "［朴二等兵，］幫我們推。",
+      "new": "［朴二等兵］，來幫我們處理這個"
+    },
+    {
+      "review_id": "reference-47199",
+      "old": "［朴二等兵，］快點，快到李周英那裡了。",
+      "new": "［朴二等兵，］快點，快到李周英那裏了"
+    },
+    {
+      "review_id": "reference-47200",
+      "old": "［朴二等兵，］我們上樓了。",
+      "new": "［朴二等兵，］我們上樓了"
+    },
+    {
+      "review_id": "reference-47201",
+      "old": "［朴二等兵，］我跟著你！",
+      "new": "［朴二等兵］，等你行動！"
+    },
+    {
+      "review_id": "reference-47202",
+      "old": "［朴二等兵，］衝進建築裡。",
+      "new": "［朴二等兵，］衝進建築裏"
+    },
+    {
+      "review_id": "reference-47203",
+      "old": "［朴二等兵，］跟我來。",
+      "new": "［朴二等兵，］跟我來"
+    },
+    {
+      "review_id": "reference-47204",
+      "old": "［朴二等兵，］過來幫忙。",
+      "new": "［朴二等兵，］過來幫忙"
+    },
+    {
+      "review_id": "reference-47205",
+      "old": "［朴玄俊！］別對平民開槍！",
+      "new": "［朴玄俊二等兵！］別向平民開槍！"
+    },
+    {
+      "review_id": "reference-47206",
+      "old": "［李周英指揮官。］",
+      "new": "［李、李周英同志］"
+    },
+    {
+      "review_id": "reference-47209",
+      "old": "［死去］",
+      "new": "［死去］"
+    },
+    {
+      "review_id": "reference-47210",
+      "old": "［殺了他！］",
+      "new": "［殺了他！］"
+    },
+    {
+      "review_id": "reference-47211",
+      "old": "［殺了所有人。］",
+      "new": "［不留活口］"
+    },
+    {
+      "review_id": "reference-47212",
+      "old": "［沒事。］",
+      "new": "［沒事］"
+    },
+    {
+      "review_id": "reference-47213",
+      "old": "［沒事了，我們會照顧你。］",
+      "new": "［別擔心，有我們在］"
+    },
+    {
+      "review_id": "reference-47214",
+      "old": "［沒人。］",
+      "new": "［沒人］"
+    },
+    {
+      "review_id": "reference-47215",
+      "old": "［沒看到人。］",
+      "new": "［沒看到人］"
+    },
+    {
+      "review_id": "reference-47216",
+      "old": "［準備……］",
+      "new": "［準備……］"
+    },
+    {
+      "review_id": "reference-47217",
+      "old": "［準備好離開了。］",
+      "new": "［準備好隨時行動］"
+    },
+    {
+      "review_id": "reference-47221",
+      "old": "［申同志，謝謝你。］",
+      "new": "［申同志，做得好］"
+    },
+    {
+      "review_id": "reference-47222",
+      "old": "［發現敵人！］",
+      "new": "［發現敵人！］"
+    },
+    {
+      "review_id": "reference-47223",
+      "old": "［發現目標了！］",
+      "new": "［發現目標了！］"
+    },
+    {
+      "review_id": "reference-47224",
+      "old": "［目標不變！］",
+      "new": "［目標不變！］"
+    },
+    {
+      "review_id": "reference-47225",
+      "old": "［直升機顛簸飛行］",
+      "new": "［直升機顛簸飛行］"
+    },
+    {
+      "review_id": "reference-47226",
+      "old": "［直接開過橋！］",
+      "new": "［只管過橋！］"
+    },
+    {
+      "review_id": "reference-47227",
+      "old": "［看到囚犯！東北門！］",
+      "new": "［看到囚犯！東北門！］"
+    },
+    {
+      "review_id": "reference-47228",
+      "old": "［看到敵人了！］",
+      "new": "［看到敵人了！］"
+    },
+    {
+      "review_id": "reference-47229",
+      "old": "［真的要賭？］",
+      "new": "［真的要賭？］"
+    },
+    {
+      "review_id": "reference-47230",
+      "old": "［移動到下一個區域。］",
+      "new": "［移動到下一個區域］"
+    },
+    {
+      "review_id": "reference-47231",
+      "old": "［移動到安全的地方！］",
+      "new": "［快到安全的地方！］"
+    },
+    {
+      "review_id": "reference-47232",
+      "old": "［窗邊有敵人。］",
+      "new": "［窗邊有敵人］"
+    },
+    {
+      "review_id": "reference-47233",
+      "old": "［等等！］",
+      "new": "［等等！］"
+    },
+    {
+      "review_id": "reference-47234",
+      "old": "［繼續直走！］",
+      "new": "［繼續直走！］"
+    },
+    {
+      "review_id": "reference-47235",
+      "old": "［老大？］",
+      "new": "［老大？］"
+    },
+    {
+      "review_id": "reference-47236",
+      "old": "［胡說。那只是我老婆在哭──］",
+      "new": "［胡說。那只是我老婆在哭──］"
+    },
+    {
+      "review_id": "reference-47237",
+      "old": "［臥室安全。］",
+      "new": "［臥室安全］"
+    },
+    {
+      "review_id": "reference-47238",
+      "old": "［蘇中士，］我找到補給了。",
+      "new": "［蘇中士，］我找到補給了"
+    },
+    {
+      "review_id": "reference-47239",
+      "old": "［處理掉他們。］",
+      "new": "［處理好這件事］"
+    },
+    {
+      "review_id": "reference-47240",
+      "old": "［虛驚一場。］",
+      "new": "［虛驚一場］"
+    },
+    {
+      "review_id": "reference-47242",
+      "old": "［裝填！］",
+      "new": "［裝填！］"
+    },
+    {
+      "review_id": "reference-47243",
+      "old": "［記得幫我帶……甜甜圈。］",
+      "new": "［記得給我帶……冬甩］"
+    },
+    {
+      "review_id": "reference-47244",
+      "old": "［該死的。］這麼暗，根本分不清敵我！",
+      "new": "［可惡。］這裏太暗了，根本分不清誰是誰！"
+    },
+    {
+      "review_id": "reference-47245",
+      "old": "［請您大發慈悲，李周英指揮官，我們偉大領導人的女兒──！］",
+      "new": "［求您開恩，李周英同志，我們偉大領袖的女兒……！］"
+    },
+    {
+      "review_id": "reference-47246",
+      "old": "［請說。］",
+      "new": "［請說］"
+    },
+    {
+      "review_id": "reference-47247",
+      "old": "［警用直升機過來了。］",
+      "new": "［警用直升機過來了］"
+    },
+    {
+      "review_id": "reference-47248",
+      "old": "［起來，你這畜生！］",
+      "new": "［起來，你這畜生！］"
+    },
+    {
+      "review_id": "reference-47249",
+      "old": "［趴下！您弄出太多聲響了！］",
+      "new": "［趴下！你弄出太多聲音了！］"
+    },
+    {
+      "review_id": "reference-47250",
+      "old": "［跑！跑！跑！］",
+      "new": "［跑！跑！跑！］"
+    },
+    {
+      "review_id": "reference-47251",
+      "old": "［躲在展示櫃之間。］",
+      "new": "［躲在展示櫃之間］"
+    },
+    {
+      "review_id": "reference-47252",
+      "old": "［躲在柱子後！］",
+      "new": "［躲在柱子後！］"
+    },
+    {
+      "review_id": "reference-47253",
+      "old": "［躲起來！］",
+      "new": "［躲起來！］"
+    },
+    {
+      "review_id": "reference-47254",
+      "old": "［躲躲藏藏的窩囊廢。］",
+      "new": "［他們像懦夫一樣躲躲藏藏］"
+    },
+    {
+      "review_id": "reference-47255",
+      "old": "［這個白痴。］",
+      "new": "［這個白痴］"
+    },
+    {
+      "review_id": "reference-47256",
+      "old": "［這裡有敵人！］",
+      "new": "［這裏有敵人！］"
+    },
+    {
+      "review_id": "reference-47257",
+      "old": "［這邊！］",
+      "new": "［這邊！］"
+    },
+    {
+      "review_id": "reference-47258",
+      "old": "［進入圖書室，那是通往避難所的捷徑。］",
+      "new": "［進圖書室，那是通往地堡最快的路］"
+    },
+    {
+      "review_id": "reference-47259",
+      "old": "［遭到猛烈攻擊！我們會撐不住！］",
+      "new": "［遭到猛烈射擊！我們被壓制了！］"
+    },
+    {
+      "review_id": "reference-47260",
+      "old": "［那戈多怎麼辦？］",
+      "new": "［那戈多怎麼辦？］"
+    },
+    {
+      "review_id": "reference-47261",
+      "old": "［那裡有敵人！］",
+      "new": "［那裏有敵人！］"
+    },
+    {
+      "review_id": "reference-47262",
+      "old": "［那邊！］",
+      "new": "［那邊！］"
+    },
+    {
+      "review_id": "reference-47263",
+      "old": "［金二等兵！］",
+      "new": "［金二等兵！］"
+    },
+    {
+      "review_id": "reference-47265",
+      "old": "［開門！］",
+      "new": "［開門！］"
+    },
+    {
+      "review_id": "reference-47267",
+      "old": "［靠。］簡單啦。",
+      "new": "［糟了。］慢慢來"
+    },
+    {
+      "review_id": "reference-47268",
+      "old": "［靠，］它要開始掃射了！",
+      "new": "［可惡］，它正對準我們，準備掃射！"
+    },
+    {
+      "review_id": "reference-47269",
+      "old": "［領導人，我們得走了。］",
+      "new": "［領導人，我們得走了］"
+    },
+    {
+      "review_id": "reference-47270",
+      "old": "［高指揮官領隊搜索，他們不可能逃得掉。我賭他們都凍死了。］",
+      "new": "［高指揮官親自搜索，沒人能藏得這麼好。我看他們是在外面凍死了］"
+    }
+  ]
+}

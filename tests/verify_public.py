@@ -33,7 +33,7 @@ def main():
   h,a,b=struct.unpack_from('<QII',data,pos);pos+=16
   old=data[pos:pos+a];assert data[pos+a]==0;pos+=a+1
   new=data[pos:pos+b];assert data[pos+b]==0;pos+=b+1;rules.append((h,old,new))
- check('Native rule table count and bounds valid',pos==len(data)and count==15304 and count<=16000)
+ check('Native rule table count and bounds valid',pos==len(data)and count==m['full_text_rules'] and count<=16000)
  lib=ctypes.WinDLL(str(R/'data/payload/hkmw4.dll'))
  init=lib.HKInitializeCandidateTest;init.argtypes=[ctypes.c_wchar_p];init.restype=ctypes.c_int
  call=lib.HKTranslateCandidateTest;call.argtypes=[ctypes.c_uint64,ctypes.c_uint64,ctypes.c_void_p,ctypes.c_uint32];call.restype=ctypes.c_void_p
@@ -41,7 +41,14 @@ def main():
  def translate(old,i=0,fp=0):
   old=old.encode()if isinstance(old,str)else old;buffer=ctypes.create_string_buffer(old);return ctypes.string_at(call(i,fp,buffer,len(old)))
  for h,old,new in rules:assert translate(old)==new,(h,old,new)
- check('All 15304 native rules return packaged targets',True)
+ check('All native rules return packaged targets',True)
+ integration_path=R/'data'/('integration-'+version+'.json')
+ if integration_path.exists():
+  integration=load(integration_path);received=integration['recovered_rules'];assert len(received)==335
+  packaged={old.decode():new.decode()for _,old,new in rules}
+  assert all(packaged[x['old']]==x['new']for x in received)
+  check('All 335 previously omitted Gemini rules are present',True)
+
  data=(R/'data/payload/hkmw4-changes.bin').read_bytes();assert data[:8]==b'HKMC0002';pos=12
  count=struct.unpack_from('<I',data,8)[0]
  for _ in range(count):
@@ -107,6 +114,6 @@ foreach($mode in @('Install','Uninstall')) {
  result=subprocess.run([shutil.which('powershell.exe'),'-NoProfile','-NonInteractive','-ExecutionPolicy','Bypass','-File',str(bridge)],capture_output=True,timeout=30,creationflags=0x08000000)
  check('Compiled EXE bridge roundtrip succeeds without a GUI',result.returncode==0 and all(sha(target/n)==h for n,h in before.items())and not(target/'_HKMW4-install.json').exists(),result.stderr.decode(errors='replace')if result.returncode else None)
  check('Public source contains no private workstation paths or credential patterns',not any(re.search(r'C:[\\/]Users[\\/]|OneDrive|y\.sunnylai|github_pat_|gh[opusr]_[A-Za-z0-9]{25,}|BEGIN (?:RSA |OPENSSH )?PRIVATE KEY',p.read_text(encoding='utf-8-sig'))for p in R.rglob('*')if p.is_file()and not any(x in p.parts for x in ('.git','.build','dist'))and p.suffix.lower()in ('.cs','.ps1','.json','.md','.c','.manifest')))
- report=dict(status='PASS',checks=checks,check_count=len(checks),native_rules=15304,menu_priorities=178,fixture='Synthetic non-executable files only',live_game_started=False,desktop_used=False,live_installation_changed=False,performance_tested=False,gui_manually_tested=False,artifacts={p.name:dict(bytes=p.stat().st_size,sha256=sha(p))for p in (exe,zpath)})
+ report=dict(status='PASS',checks=checks,check_count=len(checks),native_rules=m['full_text_rules'],menu_priorities=178,fixture='Synthetic non-executable files only',live_game_started=False,desktop_used=False,live_installation_changed=False,performance_tested=False,gui_manually_tested=False,artifacts={p.name:dict(bytes=p.stat().st_size,sha256=sha(p))for p in (exe,zpath)})
  save(D/'verification.json',report);print(json.dumps(dict(status='PASS',checks=len(checks),artifacts=report['artifacts']),ensure_ascii=False))
 if __name__=='__main__':main()
