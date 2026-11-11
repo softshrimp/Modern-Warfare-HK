@@ -1,5 +1,10 @@
 《現代戰爭 4》（2026）繁體中文香港翻譯包 0.5.15：Gemini 0.5.14文本整合版。
 
+兩種安裝方式，擇一即可：
+
+- [EXE安裝版](https://github.com/softshrimp/Modern-Warfare-HK/releases/download/v0.5.15/HKMW4-Setup-0.5.15.exe)：單一圖形安裝程式，支援選擇遊戲目錄、安裝及還原。
+- [Script腳本版（ZIP）](https://github.com/softshrimp/Modern-Warfare-HK/releases/download/v0.5.15/HKMW4-0.5.15-portable.zip)：包含PowerShell／CMD安裝及還原腳本、完整補丁資料和校驗清單。解壓後執行`Install.cmd`；自訂路徑方法見README。
+
 - 核對並整合Gemini十輪修訂的445條新增改動；相對公開版0.5.4更新438條文字。
 - 保留0.5.4已補回的335條字串，累計15,639條完整規則及178條選單優先規則。
 - 修正三條按鍵提示錯掛到故事對白的問題，保留原有韓國漢字姓名及句中句號。

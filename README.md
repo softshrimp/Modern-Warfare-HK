@@ -212,7 +212,10 @@
 
 ## 下載及安裝
 
-到 [Releases](https://github.com/softshrimp/Modern-Warfare-HK/releases) 下載 `HKMW4-Setup-0.5.15.exe`。EXE內含全部補丁資料，安裝時毋須另行下載。
+0.5.15提供兩種安裝方式，擇一即可：
+
+- [EXE安裝版](https://github.com/softshrimp/Modern-Warfare-HK/releases/download/v0.5.15/HKMW4-Setup-0.5.15.exe)：單一程式，內含全部補丁資料，安裝時毋須另行下載。
+- [Script腳本版（ZIP）](https://github.com/softshrimp/Modern-Warfare-HK/releases/download/v0.5.15/HKMW4-0.5.15-portable.zip)：內含PowerShell／CMD安裝及還原腳本、補丁資料和檔案校驗清單。解壓後執行`Install.cmd`；還原時執行`Uninstall.cmd`。自訂路徑方法見下方「公開內容」。
 
 1. 完全退出遊戲。
 2. 執行EXE，選擇遊戲根目錄，即內有 `sp26` 資料夾的目錄。
