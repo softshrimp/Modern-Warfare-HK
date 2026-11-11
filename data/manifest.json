@@ -1,5 +1,5 @@
 {
-  "version": "0.5.4",
+  "version": "0.5.15",
   "supported_exe_sha256": "69bca6d6e9dd874d0e9b194a300f1ddf9ffc264b1081f78e0e4e7d7ff4c0408e",
   "original_bink_sha256": "5ec0f57f58a90d0cdc83d77233d4b9344a34b1b720d30ebef65193cfc51bdd1c",
   "payload": {
@@ -12,8 +12,8 @@
       "sha256": "75c1c52ed4ada258497863f525d47c8e7509e5363ccb661cd100c0853ab6051a"
     },
     "hkmw4-mission-review.bin": {
-      "length": 1333159,
-      "sha256": "d76071f4d865e14e14098af28a1485145fab3ef9d50a8b770f117bb5b1095757"
+      "length": 1332985,
+      "sha256": "76dca985771530b78fd9c99600e1b50e7e521982ab3b44032efa59ca681e7860"
     },
     "hkmw4-sources.bin": {
       "length": 524752,
@@ -33,9 +33,9 @@
   "punctuation_policy": "Preserve internal sentence stops; remove only terminal segment stops, including before closing punctuation.",
   "package_kind": "Gemini text integration release",
   "pending_reference_rows": 0,
-  "unresolved_context_rows": 24,
-  "text_input_version": "Gemini 0.5.3 plus reviewed_335",
-  "new_rules_recovered": 335,
-  "existing_targets_changed": 285,
-  "distribution": "57-byte loader delta reconstructed from a matching user-owned original file. Original game DLL is not bundled."
+  "unresolved_context_rows": 29,
+  "text_input_version": "Gemini 0.5.14",
+  "existing_targets_changed": 438,
+  "distribution": "57-byte loader delta reconstructed from a matching user-owned original file. Original game DLL is not bundled.",
+  "retained_added_rules": 335
 }

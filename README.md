@@ -4,17 +4,17 @@
 
 本版對應目前遊戲副本標示的「MW4」；支援範圍以檔案雜湊為準。
 
-**目前版本：0.5.4，Gemini文本整合版。** 包含15,639條完整字串規則及178條選單優先規則。已補回先前封裝漏收的335條文字，另更新285條既有譯文；24項語境／來源對應問題另列記錄，尚未列作全故事語義覆核完成。
+**目前版本：0.5.15，Gemini文本整合版。** 包含15,639條完整字串規則及178條選單優先規則。整合Gemini 0.5.14的445條新增改動，相對0.5.4更新438條文字，並保留先前補回的335條字串；29項語境／來源對應問題另列記錄。
 
 ## 改了甚麼？
 
-以下保留五類修訂：英中語義錯譯詳列100例，其餘四類各列5例，共120例，全部對照0.5.4已封裝的替換規則核實。「原有繁中」指相應遊戲資源的文字；同一句英文可能有多個字幕版本，表中只指該條記錄。這些例子按各自語境處理，並非全局機械替換。表中的換行以`<br>`呈現。
+以下保留五類修訂：英中語義錯譯詳列100例，其餘四類各列5例，共120例，全部對照0.5.15已封裝的替換規則核實。「原有繁中」指相應遊戲資源的文字；同一句英文可能有多個字幕版本，表中只指該條記錄。這些例子按各自語境處理，並非全局機械替換。表中的換行以`<br>`呈現。
 
 ### 英中語義錯譯
 
-以下100例按問題性質分組，列出完整的英文、原有繁中、0.5.4實際替換文字及修正原因。例子包含故事字幕、任務提示及共用設定／武器說明，涉及劇情內容。部分句子同時修正香港用語及標點；此處列明的是語義上的差異。
+以下100例按問題性質分組，列出完整的英文、原有繁中、0.5.15實際替換文字及修正原因。例子包含故事字幕、任務提示及共用設定／武器說明，涉及劇情內容。部分句子同時修正香港用語及標點；此處列明的是語義上的差異。
 
-每例均保留一條具體原文記錄；相同英文在其他字幕版本可能有不同舊譯。完整字串及覆核編號另見[100例資料檔](docs/semantic-corrections-0.5.4.json)，方便逐項比對。這是已封裝修訂的精選清單，並非全遊戲錯譯的完整統計。
+每例均保留一條具體原文記錄；相同英文在其他字幕版本可能有不同舊譯。完整字串及覆核編號另見[100例資料檔](docs/semantic-corrections-0.5.15.json)，方便逐項比對。這是已封裝修訂的精選清單，並非全遊戲錯譯的完整統計。
 
 #### 慣用語、肯否及說話立場
 
@@ -114,9 +114,9 @@
 | 62 | That’s what you’re here for. | 所以我才讓你加入行動。 | 這就是你來這裏的原因 | 原文只說這就是對方在此的原因，沒有說是說話者親自招募他。 |
 | 63 | [Just remember your training.] | ［您受過軍事訓練，您沒問題。］ | ［記住你受過的訓練］ | 原文提醒記住所受訓練，沒有另外保證「你沒問題」。 |
 | 64 | Fuckin’ A, dude, nice! | 厲害，兄弟，愛死你！ | 厲害，兄弟，做得好！ | nice是稱讚做得好，原文沒有「愛死你」。 |
-| 65 | Watch the van! | 別打到廂型車！ | 小心那輛客貨車！ | Watch the van要求留意車輛，原文並未明說不要射中它。 |
+| 65 | Watch the van! | 別打到廂型車！ | 小心那部客貨車！ | Watch the van要求留意車輛，原文並未明說不要射中它。 |
 | 66 | [Please, please don't kill me!] | ［住手！不要殺我！］ | ［求求你，求求你別殺我！］ | 原文是重複懇求別殺自己，沒有下令對方住手。 |
-| 67 | [Sir, the earpiece. Take it.] | ［領導人，請戴耳機，動作快點。］ | ［領導人，拿着這個耳機］ | Take it要求拿取耳機，原譯另加了戴上及加快動作的要求。 |
+| 67 | [Sir, the earpiece. Take it.] | ［領導人，請戴耳機，動作快點。］ | ［長官，拿着這個耳機］ | Take it要求拿取耳機，原譯另加了戴上及加快動作的要求。 |
 | 68 | [Violence is a tool. You need to use it? Then use it.] | ［暴力是種工具。需要用就得用，不能心軟。］ | ［暴力是一種工具。需要用，就用］ | 原文談需要時使用暴力，沒有「不能心軟」這項額外評語。 |
 | 69 | Still got some fight in you then. | 沒想到你這老傢伙還能打。 | 看來你還有力氣反抗 | 原文說仍有反抗的力氣，沒有「你這老傢伙」的年齡稱呼。 |
 | 70 | Faster, Dunn. Faster. | 快點，鄧恩，要走了。 | 快一點，鄧恩，再快一點 | 原文重複催促更快，沒有「要走了」的補充。 |
@@ -142,7 +142,7 @@
 | --- | --- | --- | --- | --- |
 | 81 | Anchor-1 is two mikes out. HLZ in sight. I say again, HLZ in sight. | 船錨1距離2英里。看見降落區了。重複一次，看見降落區了。 | 船錨1還有2分鐘抵達。已看見直升機着陸區。重複，已看見直升機着陸區 | 無線電用語two mikes在此指兩分鐘後抵達，原譯卻變成兩英里的距離。 |
 | 82 | Danger close! | 危險迫近！ | 注意，炮火接近友軍！ | Danger close是火力接近友軍的警告，不是一般的危險迫近。 |
-| 83 | A lightweight, no-frills suppressor that reduces muzzle report. This suppressor also reduces damage range. | 基本款的輕量型消音器，可減弱槍口回饋，也會降低傷害距離。 | 基本輕型消音器，可降低槍聲，但會縮短有效射程 | muzzle report指槍聲，並非槍口回饋；damage range按武器語境處理為有效射程。 |
+| 83 | A lightweight, no-frills suppressor that reduces muzzle report. This suppressor also reduces damage range. | 基本款的輕量型消音器，可減弱槍口回饋，也會降低傷害距離。 | 基本輕型滅聲器，可降低槍聲，但會縮短有效射程 | muzzle report指槍聲，並非槍口回饋；damage range按武器語境處理為有效射程。 |
 | 84 | [Our Surface-to-Air launcher.] | ［我方地對空飛彈基地。］ | ［我方的地對空導彈發射器］ | launcher是發射器，原譯卻把它變成整座基地。 |
 | 85 | Drill rounds are armor-piercing. Highly effective against vehicles. | 穿甲彈能擊穿裝甲，對付載具很有效。 | 鑽頭彈能擊穿裝甲，對付車輛很有效 | Drill rounds是鑽頭彈；armor-piercing才描述其穿甲能力，兩者不應合併成同一個名稱。 |
 | 86 | Stack up at the relay station! | 到變電所外集合！ | 到中繼站門外列隊！ | relay station是中繼站，stack up是在攻堅前列隊，原譯錯成變電所外集合。 |
@@ -192,7 +192,7 @@
 | --- | --- | --- | --- |
 | Shadows incoming! | 影子組織過來了！ | 暗影部隊過來了！ | Shadows指暗影部隊 |
 | See, that doesn’t matter, Private. Because you are going to eat it all. Right now. | 那不重要啦，菜鳥。你現在要把這些全部吃完，動作快。 | 那不重要，二等兵。你要把這些全部吃完。現在就吃 | Private是二等兵軍階，不能一律叫菜鳥或新仔 |
-| A lightweight, no-frills suppressor that reduces muzzle report. This suppressor also reduces damage range. | 基本款的輕量型消音器，可減弱槍口回饋，也會降低傷害距離。 | 基本輕型消音器，可降低槍聲，但會縮短有效射程 | muzzle report指槍聲；damage range按武器語境譯作有效射程 |
+| A lightweight, no-frills suppressor that reduces muzzle report. This suppressor also reduces damage range. | 基本款的輕量型消音器，可減弱槍口回饋，也會降低傷害距離。 | 基本輕型滅聲器，可降低槍聲，但會縮短有效射程 | muzzle report指槍聲；damage range按武器語境譯作有效射程 |
 | SAM sites are on the east side of the island. | 地對空基地在小島東邊。 | 地對空導彈陣地在小島東面 | 明確交代SAM地對空導彈陣地 |
 | Got eyes on the relay station! | 看到變電所了！ | 看到中繼站了！ | relay station指中繼站 |
 
@@ -208,15 +208,15 @@
 
 韓國漢字姓名保留原有寫法；new guy／newbie可譯作「新仔」，Private則按軍階譯作「二等兵」。字幕只刪除整個句段最尾的句號，保留句中句號及換行。底線及斜體因遊戲顯示限制而省略。
 
-新版整合詳情見[0.5.4更新記錄](docs/release-0.5.4.md)；尚待佐證的[語境／來源問題](docs/context-questions-0.5.4.json)保留供後續追查。
+新版整合詳情見[0.5.15更新記錄](docs/release-0.5.15.md)；尚待佐證的[語境／來源問題](docs/context-questions-0.5.15.json)保留供後續追查。
 
 ## 下載及安裝
 
-到 [Releases](https://github.com/softshrimp/Modern-Warfare-HK/releases) 下載 `HKMW4-Setup-0.5.4.exe`。EXE內含全部補丁資料，安裝時毋須另行下載。
+到 [Releases](https://github.com/softshrimp/Modern-Warfare-HK/releases) 下載 `HKMW4-Setup-0.5.15.exe`。EXE內含全部補丁資料，安裝時毋須另行下載。
 
 1. 完全退出遊戲。
 2. 執行EXE，選擇遊戲根目錄，即內有 `sp26` 資料夾的目錄。
-3. 如已安裝舊補丁，先按「還原舊版／移除補丁」，再按「安裝0.5.4」。也可先用舊版的 `Uninstall.cmd` 還原。
+3. 如已安裝舊補丁，先按「還原舊版／移除補丁」，再按「安裝0.5.15」。也可先用舊版的 `Uninstall.cmd` 還原。
 4. 安裝成功後，由你自行啟動遊戲核對。日後可再執行同一EXE移除補丁。
 
 安裝程式會檢查遊戲版本、備份原檔及驗證補丁內容。遊戲語言須已設為 `tchinese`。安裝程式不會啟動遊戲或更改語言設定。已有完全相同版本時，會檢查檔案後保留現有安裝；不同版本須先還原。
@@ -244,7 +244,7 @@
 
 儲存庫附安裝程式、原始碼、文字替換資料及Bink載入器的57個位元組修改記錄。安裝時從使用者自己的相符原檔重建載入器。公開檔案不包含完整遊戲EXE、原版Bink DLL、關卡資源、帳戶設定或私人工作記錄。
 
-`HKMW4-0.5.4-portable.zip` 是相同公開補丁的手動版本，不含完整Bink DLL。可在PowerShell內指定遊戲路徑：
+`HKMW4-0.5.15-portable.zip` 是相同公開補丁的手動版本，不含完整Bink DLL。可在PowerShell內指定遊戲路徑：
 
 ```powershell
 .\InstallPatch.ps1 -Mode Install -GameRoot 'D:\Games\你的遊戲'
@@ -266,6 +266,6 @@ python .\tests\verify_public.py
 
 ## 驗證狀態
 
-28項背景技術檢查通過，包括全部15,639條規則及178條選單規則的DLL輸出核對、335條補回字串，以及隔離安裝、重複安裝、還原、拒絕損壞補丁及不相符版本的測試。公開EXE另有內嵌檔案完整性檢查。遊戲畫面及實機效能未在本次發佈流程測試。
+29項背景技術檢查通過，包括全部15,639條規則及178條選單規則的DLL輸出核對、335條累積字串、三條錯掛操作提示的回歸案例，以及隔離安裝、重複安裝、還原、拒絕損壞補丁及不相符版本的測試。公開EXE另有內嵌檔案完整性檢查。遊戲畫面及實機效能未在本次發佈流程測試。
 
 本項目與遊戲發行商無關。遊戲、Bink及相關商標的權利屬各自權利人；本儲存庫不授予原遊戲或第三方軟件的權利。

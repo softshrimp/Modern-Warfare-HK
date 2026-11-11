@@ -11,9 +11,9 @@ using System.Windows.Forms;
 using System.Threading.Tasks;
 
 [assembly: AssemblyTitle("HKMW4 香港繁體中文補丁安裝程式")]
-[assembly: AssemblyDescription("HKMW4 0.5.4 cumulative translation checkpoint installer")]
-[assembly: AssemblyVersion("0.5.4.0")]
-[assembly: AssemblyFileVersion("0.5.4.0")]
+[assembly: AssemblyDescription("HKMW4 0.5.15 cumulative translation checkpoint installer")]
+[assembly: AssemblyVersion("0.5.15.0")]
+[assembly: AssemblyFileVersion("0.5.15.0")]
 
 internal static class Package {
     internal static string DirectoryPath;
@@ -87,15 +87,15 @@ internal sealed class InstallerForm:Form {
     readonly Label status=new Label();
     bool busy;
     internal InstallerForm() {
-        Text="《現代戰爭 4》（2026）繁體中文香港翻譯包 0.5.4";ClientSize=new Size(780,550);MinimumSize=new Size(796,589);
+        Text="《現代戰爭 4》（2026）繁體中文香港翻譯包 0.5.15";ClientSize=new Size(780,550);MinimumSize=new Size(796,589);
         Font=new Font("Microsoft JhengHei UI",10F);StartPosition=FormStartPosition.CenterScreen;
-        var title=new Label {Text="《現代戰爭 4》香港翻譯包 0.5.4",Font=new Font(Font.FontFamily,18F,FontStyle.Bold),AutoSize=true,Location=new Point(24,20)};
+        var title=new Label {Text="《現代戰爭 4》香港翻譯包 0.5.15",Font=new Font(Font.FontFamily,18F,FontStyle.Bold),AutoSize=true,Location=new Point(24,20)};
         var description=new Label {Text="Gemini文本整合版：15,639 條文字規則；全文覆核尚未完成\r\n請先退出遊戲。已有舊版時，先按「還原舊版／移除補丁」，再安裝本版。",AutoSize=true,Location=new Point(26,68)};
         var label=new Label {Text="遊戲根目錄（內有 sp26 資料夾）",AutoSize=true,Location=new Point(26,126)};
         folder.Text=@"C:\Games\Call of Duty - Modern Warfare 4";folder.SetBounds(28,154,608,30);folder.Anchor=AnchorStyles.Top|AnchorStyles.Left|AnchorStyles.Right;
         browse.Text="選擇資料夾";browse.SetBounds(648,152,108,32);browse.Anchor=AnchorStyles.Top|AnchorStyles.Right;
         browse.Click+=(sender,e)=>{using(var dialog=new FolderBrowserDialog {Description="選擇內有 sp26 資料夾的遊戲根目錄",SelectedPath=folder.Text})if(dialog.ShowDialog(this)==DialogResult.OK)folder.Text=dialog.SelectedPath;};
-        install.Text="安裝 0.5.4";install.SetBounds(28,204,180,40);install.Click+=async(sender,e)=>await Execute("Install");
+        install.Text="安裝 0.5.15";install.SetBounds(28,204,180,40);install.Click+=async(sender,e)=>await Execute("Install");
         uninstall.Text="還原舊版／移除補丁";uninstall.SetBounds(224,204,246,40);uninstall.Click+=async(sender,e)=>await Execute("Uninstall");
         status.Text="等待操作。安裝程式會備份原檔並檢查版本。";status.AutoSize=true;status.Location=new Point(28,260);
         log.Multiline=true;log.ReadOnly=true;log.ScrollBars=ScrollBars.Vertical;log.SetBounds(28,292,728,190);log.Anchor=AnchorStyles.Top|AnchorStyles.Bottom|AnchorStyles.Left|AnchorStyles.Right;

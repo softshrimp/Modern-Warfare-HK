@@ -44,10 +44,13 @@ def main():
  check('All native rules return packaged targets',True)
  integration_path=R/'data'/('integration-'+version+'.json')
  if integration_path.exists():
-  integration=load(integration_path);received=integration['recovered_rules'];assert len(received)==335
+  integration=load(integration_path);received=integration.get('recovered_rules',integration.get('retained_rules'));assert len(received)==335
   packaged={old.decode():new.decode()for _,old,new in rules}
   assert all(packaged[x['old']]==x['new']for x in received)
-  check('All 335 previously omitted Gemini rules are present',True)
+  check('All 335 cumulative reference rules are present',True)
+  cases=integration.get('regression_cases',[])
+  for case in cases:assert translate(case['old'])==case['expected'].encode()
+  if cases:check('Misassigned UI prompts do not replace story dialogue',len(cases)==3)
 
  data=(R/'data/payload/hkmw4-changes.bin').read_bytes();assert data[:8]==b'HKMC0002';pos=12
  count=struct.unpack_from('<I',data,8)[0]
