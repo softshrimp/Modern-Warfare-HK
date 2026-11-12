@@ -1,0 +1,282 @@
+{
+  "version": "0.5.15",
+  "unit": "distinct original text key in the shipped full-text table",
+  "inputs": {
+    "payload": "data/payload/hkmw4-mission-review.bin",
+    "payload_sha256": "76dca985771530b78fd9c99600e1b50e7e521982ab3b44032efa59ca681e7860",
+    "semantic_examples": "docs/semantic-corrections-0.5.15.json",
+    "semantic_examples_sha256": "1bb036bceea82150d882aa2ac4c8074b153b69c9a2c32a01e47b979cc63ac170",
+    "lexicon": "data/statistics-lexicon.json",
+    "lexicon_sha256": "5c96d674d545381512ad876f0254757788f7042e0f97e330005f3a8a33a9b06c"
+  },
+  "total_strings": 15639,
+  "changed_strings": 9921,
+  "change_classes": {
+    "unchanged": 5718,
+    "punctuation_spacing_only": 3999,
+    "content_changed": 5922
+  },
+  "semantic_correction_examples": 100,
+  "localisation": {
+    "matched_strings": 1514,
+    "vocabulary_strings": 412,
+    "orthography_strings": 1123,
+    "both_groups_strings": 21,
+    "pair_count": 35,
+    "matched_pair_count": 35,
+    "terms": [
+      {
+        "id": "vocabulary-01",
+        "group": "vocabulary",
+        "original": "品質",
+        "hk": "質素",
+        "strings": 27
+      },
+      {
+        "id": "vocabulary-02",
+        "group": "vocabulary",
+        "original": "硬體",
+        "hk": "硬件",
+        "strings": 2
+      },
+      {
+        "id": "vocabulary-03",
+        "group": "vocabulary",
+        "original": "網路",
+        "hk": "網絡",
+        "strings": 2
+      },
+      {
+        "id": "vocabulary-04",
+        "group": "vocabulary",
+        "original": "螢幕",
+        "hk": "屏幕",
+        "strings": 13
+      },
+      {
+        "id": "vocabulary-05",
+        "group": "vocabulary",
+        "original": "解析度",
+        "hk": "解像度",
+        "strings": 11
+      },
+      {
+        "id": "vocabulary-06",
+        "group": "vocabulary",
+        "original": "材質",
+        "hk": "紋理",
+        "strings": 7
+      },
+      {
+        "id": "vocabulary-07",
+        "group": "vocabulary",
+        "original": "作業系統",
+        "hk": "操作系統",
+        "strings": 1
+      },
+      {
+        "id": "vocabulary-08",
+        "group": "vocabulary",
+        "original": "家庭劇院",
+        "hk": "家庭影院",
+        "strings": 2
+      },
+      {
+        "id": "vocabulary-09",
+        "group": "vocabulary",
+        "original": "標竿測試",
+        "hk": "效能測試",
+        "strings": 1
+      },
+      {
+        "id": "vocabulary-10",
+        "group": "vocabulary",
+        "original": "雷射",
+        "hk": "激光",
+        "strings": 33
+      },
+      {
+        "id": "vocabulary-11",
+        "group": "vocabulary",
+        "original": "飛彈",
+        "hk": "導彈",
+        "strings": 83
+      },
+      {
+        "id": "vocabulary-12",
+        "group": "vocabulary",
+        "original": "卡車",
+        "hk": "貨車",
+        "strings": 38
+      },
+      {
+        "id": "vocabulary-13",
+        "group": "vocabulary",
+        "original": "摩托車",
+        "hk": "電單車",
+        "strings": 19
+      },
+      {
+        "id": "vocabulary-14",
+        "group": "vocabulary",
+        "original": "機車",
+        "hk": "電單車",
+        "strings": 1
+      },
+      {
+        "id": "vocabulary-15",
+        "group": "vocabulary",
+        "original": "轎車",
+        "hk": "私家車",
+        "strings": 10
+      },
+      {
+        "id": "vocabulary-16",
+        "group": "vocabulary",
+        "original": "廂型車",
+        "hk": "客貨車",
+        "strings": 40
+      },
+      {
+        "id": "vocabulary-17",
+        "group": "vocabulary",
+        "original": "電梯",
+        "hk": "升降機",
+        "strings": 14
+      },
+      {
+        "id": "vocabulary-18",
+        "group": "vocabulary",
+        "original": "泡麵",
+        "hk": "即食麵",
+        "strings": 5
+      },
+      {
+        "id": "vocabulary-19",
+        "group": "vocabulary",
+        "original": "甜甜圈",
+        "hk": "冬甩",
+        "strings": 3
+      },
+      {
+        "id": "vocabulary-20",
+        "group": "vocabulary",
+        "original": "鑰匙",
+        "hk": "鎖匙",
+        "strings": 10
+      },
+      {
+        "id": "vocabulary-21",
+        "group": "vocabulary",
+        "original": "嫌犯",
+        "hk": "疑犯",
+        "strings": 11
+      },
+      {
+        "id": "vocabulary-22",
+        "group": "vocabulary",
+        "original": "消音器",
+        "hk": "滅聲器",
+        "strings": 58
+      },
+      {
+        "id": "vocabulary-23",
+        "group": "vocabulary",
+        "original": "腮托",
+        "hk": "貼腮板",
+        "strings": 5
+      },
+      {
+        "id": "vocabulary-24",
+        "group": "vocabulary",
+        "original": "鐵軌",
+        "hk": "路軌",
+        "strings": 9
+      },
+      {
+        "id": "vocabulary-25",
+        "group": "vocabulary",
+        "original": "菜鳥",
+        "hk": "新仔",
+        "strings": 2
+      },
+      {
+        "id": "vocabulary-26",
+        "group": "vocabulary",
+        "original": "公尺",
+        "hk": "米",
+        "strings": 12
+      },
+      {
+        "id": "vocabulary-27",
+        "group": "vocabulary",
+        "original": "帳號",
+        "hk": "帳戶",
+        "strings": 1
+      },
+      {
+        "id": "vocabulary-28",
+        "group": "vocabulary",
+        "original": "畫格",
+        "hk": "幀",
+        "strings": 8
+      },
+      {
+        "id": "vocabulary-29",
+        "group": "vocabulary",
+        "original": "數位",
+        "hk": "數碼",
+        "strings": 3
+      },
+      {
+        "id": "vocabulary-30",
+        "group": "vocabulary",
+        "original": "智慧",
+        "hk": "智能",
+        "strings": 1
+      },
+      {
+        "id": "orthography-01",
+        "group": "orthography",
+        "original": "什麼",
+        "hk": "甚麼",
+        "strings": 231
+      },
+      {
+        "id": "orthography-02",
+        "group": "orthography",
+        "original": "裡",
+        "hk": "裏",
+        "strings": 517
+      },
+      {
+        "id": "orthography-03",
+        "group": "orthography",
+        "original": "著",
+        "hk": "着",
+        "strings": 246
+      },
+      {
+        "id": "orthography-04",
+        "group": "orthography",
+        "original": "砲",
+        "hk": "炮",
+        "strings": 158
+      },
+      {
+        "id": "orthography-05",
+        "group": "orthography",
+        "original": "計畫",
+        "hk": "計劃",
+        "strings": 13
+      }
+    ]
+  },
+  "method": {
+    "change_classes": "Exact equality first; otherwise remove Unicode punctuation (P*), separators (Z*) and whitespace to identify punctuation/spacing-only changes. Remaining differences are content changes.",
+    "semantic_correction_examples": "Distinct source keys in the published English/original/HK semantic-correction examples, verified against the shipped targets.",
+    "localisation": "For each published pair, count each source key once when the original term decreases and the HK term increases. Deduplicate source keys across all pairs for the headline total.",
+    "menu_rules": "178 priority-menu rules use a separate lookup path and are not added to the full-text denominator.",
+    "overlap": "Semantic corrections and localisation may occur in the same source key. Regional term bars may overlap each other."
+  }
+}
