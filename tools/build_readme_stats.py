@@ -30,6 +30,11 @@ def read_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def text_sha256(path: Path) -> str:
+    # Match Git's LF text blobs across Windows and Unix checkouts.
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
 def fnv1a64(data: bytes) -> int:
     result = 0xCBF29CE484222325
     for byte in data:
@@ -149,9 +154,9 @@ def collect_statistics() -> tuple[dict, str]:
             "payload": "data/payload/hkmw4-mission-review.bin",
             "payload_sha256": payload_sha,
             "semantic_examples": semantic_path.relative_to(ROOT).as_posix(),
-            "semantic_examples_sha256": hashlib.sha256(semantic_path.read_bytes()).hexdigest(),
+            "semantic_examples_sha256": text_sha256(semantic_path),
             "lexicon": lexicon_path.relative_to(ROOT).as_posix(),
-            "lexicon_sha256": hashlib.sha256(lexicon_path.read_bytes()).hexdigest(),
+            "lexicon_sha256": text_sha256(lexicon_path),
         },
         "total_strings": total,
         "changed_strings": total - counts["unchanged"],
@@ -167,6 +172,7 @@ def collect_statistics() -> tuple[dict, str]:
             "terms": terms,
         },
         "method": {
+            "text_input_hashes": "SHA256 of UTF-8 text with CRLF normalized to LF, matching Git text blobs.",
             "change_classes": "Exact equality first; otherwise remove Unicode punctuation (P*), separators (Z*) and whitespace to identify punctuation/spacing-only changes. Remaining differences are content changes.",
             "semantic_correction_examples": "Distinct source keys in the published English/original/HK semantic-correction examples, verified against the shipped targets.",
             "localisation": "For each published pair, count each source key once when the original term decreases and the HK term increases. Deduplicate source keys across all pairs for the headline total.",

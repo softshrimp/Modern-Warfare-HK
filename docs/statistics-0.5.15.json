@@ -5,7 +5,7 @@
     "payload": "data/payload/hkmw4-mission-review.bin",
     "payload_sha256": "76dca985771530b78fd9c99600e1b50e7e521982ab3b44032efa59ca681e7860",
     "semantic_examples": "docs/semantic-corrections-0.5.15.json",
-    "semantic_examples_sha256": "1bb036bceea82150d882aa2ac4c8074b153b69c9a2c32a01e47b979cc63ac170",
+    "semantic_examples_sha256": "c545e7769fb7da83d90ec599fa3ce007729f25ffce5138c65865bc300e4ce12f",
     "lexicon": "data/statistics-lexicon.json",
     "lexicon_sha256": "5c96d674d545381512ad876f0254757788f7042e0f97e330005f3a8a33a9b06c"
   },
@@ -273,6 +273,7 @@
     ]
   },
   "method": {
+    "text_input_hashes": "SHA256 of UTF-8 text with CRLF normalized to LF, matching Git text blobs.",
     "change_classes": "Exact equality first; otherwise remove Unicode punctuation (P*), separators (Z*) and whitespace to identify punctuation/spacing-only changes. Remaining differences are content changes.",
     "semantic_correction_examples": "Distinct source keys in the published English/original/HK semantic-correction examples, verified against the shipped targets.",
     "localisation": "For each published pair, count each source key once when the original term decreases and the HK term increases. Deduplicate source keys across all pairs for the headline total.",
