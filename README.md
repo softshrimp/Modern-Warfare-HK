@@ -1,20 +1,20 @@
 # 《現代戰爭 4》（2026）繁體中文香港翻譯包
 
-以香港繁體書面語重整選單、任務提示及故事字幕的非官方中文翻譯包，同時按英文修正原有譯文。
+![《現代戰爭 4》繁體中文（香港）翻譯包](assets/cover-zh-hk.png)
 
-本版對應目前遊戲副本標示的「MW4」；支援範圍以檔案雜湊為準。
+以香港繁體書面語重整選單、任務提示及故事字幕，同時按英文修正原有譯文。
 
-**目前版本：0.5.15，Gemini文本整合版。** 包含15,639條完整字串規則及178條選單優先規則。整合Gemini 0.5.14的445條新增改動，相對0.5.4更新438條文字，並保留先前補回的335條字串；29項語境／來源對應問題另列記錄。
+**目前版本：0.5.15，Gemini文本整合版。** 包含15,639條完整字串規則及178條選單優先規則。整合Gemini 0.5.14的445條新增改動，相對0.5.4更新438條文字，並保留先前補回的335條字串。
 
 ## 改了甚麼？
 
-以下保留五類修訂：英中語義錯譯詳列100例，其餘四類各列5例，共120例，全部對照0.5.15已封裝的替換規則核實。「原有繁中」指相應遊戲資源的文字；同一句英文可能有多個字幕版本，表中只指該條記錄。這些例子按各自語境處理，並非全局機械替換。表中的換行以`<br>`呈現。
+以下分五類展示修訂：英中語義錯譯100例，其餘四類各5例，共120例。「原有繁中」是遊戲資源中的文字，「本翻譯包」是0.5.15的修訂文字。
 
 ### 英中語義錯譯
 
-以下100例按問題性質分組，列出完整的英文、原有繁中、0.5.15實際替換文字及修正原因。例子包含故事字幕、任務提示及共用設定／武器說明，涉及劇情內容。部分句子同時修正香港用語及標點；此處列明的是語義上的差異。
+以下100例按問題性質分組，列出英文、原有繁中、修訂文字及原因，涵蓋故事字幕、任務提示、設定及武器說明。
 
-每例均保留一條具體原文記錄；相同英文在其他字幕版本可能有不同舊譯。完整字串及覆核編號另見[100例資料檔](docs/semantic-corrections-0.5.15.json)，方便逐項比對。這是已封裝修訂的精選清單，並非全遊戲錯譯的完整統計。
+完整字串及覆核編號見[100例資料檔](docs/semantic-corrections-0.5.15.json)。
 
 #### 慣用語、肯否及說話立場
 
@@ -206,48 +206,44 @@
 | [Ko Jin-Hyuk, first objective complete.] | ［高鎮赫，第一個目標完成了。］ | ［高鎮赫，第一個目標完成了］ | 保留韓國漢字姓名及括號，刪除最尾句號 |
 | You were killed by a grenade.<br>Watch out for the grenade danger indicator. | 你被一枚手榴彈炸死了。<br>留意手榴彈危險警示。 | 你被一枚手榴彈炸死了。<br>留意手榴彈危險警示 | 保留換行和句中句號；換行不等於另一句段 |
 
-韓國漢字姓名保留原有寫法；new guy／newbie可譯作「新仔」，Private則按軍階譯作「二等兵」。字幕只刪除整個句段最尾的句號，保留句中句號及換行。底線及斜體因遊戲顯示限制而省略。
+韓國漢字姓名保留原有寫法；new guy／newbie可譯作「新仔」，Private按軍階譯作「二等兵」。字幕保留句中句號及換行，省略句段最尾的句號。
 
-新版整合詳情見[0.5.15更新記錄](docs/release-0.5.15.md)；尚待佐證的[語境／來源問題](docs/context-questions-0.5.15.json)保留供後續追查。
+版本詳情見[0.5.15更新記錄](docs/release-0.5.15.md)。
 
 ## 下載及安裝
 
 0.5.15提供兩種安裝方式，擇一即可：
 
 - [EXE安裝版](https://github.com/softshrimp/Modern-Warfare-HK/releases/download/v0.5.15/HKMW4-Setup-0.5.15.exe)：單一程式，內含全部補丁資料，安裝時毋須另行下載。
-- [Script腳本版（ZIP）](https://github.com/softshrimp/Modern-Warfare-HK/releases/download/v0.5.15/HKMW4-0.5.15-portable.zip)：內含PowerShell／CMD安裝及還原腳本、補丁資料和檔案校驗清單。解壓後執行`Install.cmd`；還原時執行`Uninstall.cmd`。自訂路徑方法見下方「公開內容」。
+- [Script腳本版（ZIP）](https://github.com/softshrimp/Modern-Warfare-HK/releases/download/v0.5.15/HKMW4-0.5.15-portable.zip)：內含PowerShell／CMD安裝及還原腳本、補丁資料和檔案校驗清單。解壓後執行`Install.cmd`；還原時執行`Uninstall.cmd`。自訂路徑方法見下方「Script版及原始碼」。
 
 1. 完全退出遊戲。
 2. 執行EXE，選擇遊戲根目錄，即內有 `sp26` 資料夾的目錄。
 3. 如已安裝舊補丁，先按「還原舊版／移除補丁」，再按「安裝0.5.15」。也可先用舊版的 `Uninstall.cmd` 還原。
-4. 安裝成功後，由你自行啟動遊戲核對。日後可再執行同一EXE移除補丁。
+4. 安裝完成後啟動遊戲，即可使用翻譯包。日後可再執行同一EXE移除補丁。
 
-安裝程式會檢查遊戲版本、備份原檔及驗證補丁內容。遊戲語言須已設為 `tchinese`。安裝程式不會啟動遊戲或更改語言設定。已有完全相同版本時，會檢查檔案後保留現有安裝；不同版本須先還原。
+安裝前將遊戲語言設為 `tchinese`。安裝程式會檢查遊戲版本、備份原檔及驗證補丁內容。
 
-支援Windows x64，需 [.NET Framework 4.8或更新版本](https://learn.microsoft.com/dotnet/framework/install/on-windows-10)及Windows PowerShell 5.1。EXE目前未作數碼簽署；可用Release附帶的 `SHA256SUMS.txt` 核對下載檔案。
+支援Windows x64，需 [.NET Framework 4.8或更新版本](https://learn.microsoft.com/dotnet/framework/install/on-windows-10)及Windows PowerShell 5.1。下載檔案的SHA-256列於Release附帶的 `SHA256SUMS.txt`。
 
-## 版本限制
+## 支援版本
 
-僅支援以下副本，不會強制套用至其他版本：
+支援的遊戲檔案版本如下：
 
 | 檔案 | SHA-256 |
 | --- | --- |
 | `sp26/sp26-cod.exe` | `69bca6d6e9dd874d0e9b194a300f1ddf9ffc264b1081f78e0e4e7d7ff4c0408e` |
 | 原版 `sp26/bink2w64.dll` | `5ec0f57f58a90d0cdc83d77233d4b9344a34b1b720d30ebef65193cfc51bdd1c` |
 
-補丁保留韓國漢字姓名；對白按英文覆核，採香港繁體書面語。只刪除句段末尾的句號，保留句中句號。底線及斜體受遊戲顯示限制而省略。本版採用Gemini新版文本，補齊漏收字串並修正整合時發現的錯譯、用語及姓名問題；執行引擎維持原版本。
-
-## 還原及故障排查
+## 還原
 
 再次執行EXE，選擇相同遊戲根目錄並按「還原舊版／移除補丁」。原檔備份存於 `sp26/_HKMW4-backup/`，安裝記錄為 `sp26/_HKMW4-install.json`。
 
-若版本不符、原檔已被其他工具修改、語言不是 `tchinese`，或相關檔案仍被佔用，安裝程式會停止並顯示原因。請勿手動混用不同版本的補丁檔案。
+## Script版及原始碼
 
-## 公開內容
+儲存庫提供安裝程式原始碼、文字替換資料及Bink載入器的57個位元組修改記錄。安裝時以本機Bink原檔重建載入器。
 
-儲存庫附安裝程式、原始碼、文字替換資料及Bink載入器的57個位元組修改記錄。安裝時從使用者自己的相符原檔重建載入器。公開檔案不包含完整遊戲EXE、原版Bink DLL、關卡資源、帳戶設定或私人工作記錄。
-
-`HKMW4-0.5.15-portable.zip` 是相同公開補丁的手動版本，不含完整Bink DLL。可在PowerShell內指定遊戲路徑：
+`HKMW4-0.5.15-portable.zip` 是Script腳本版，可在PowerShell內指定遊戲路徑：
 
 ```powershell
 .\InstallPatch.ps1 -Mode Install -GameRoot 'D:\Games\你的遊戲'
@@ -263,12 +259,10 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 python .\tests\verify_public.py
 ```
 
-產物位於 `dist/`。建置會驗證EXE內嵌資料，不會顯示安裝視窗或啟動遊戲。`installer/Setup.cs` 是安裝介面；`installer/InstallPatch.ps1` 重建載入器；`installer/InstallCore.ps1` 負責備份、安裝及還原。
+產物位於 `dist/`，建置時會驗證EXE內嵌資料。`installer/Setup.cs` 是安裝介面；`installer/InstallPatch.ps1` 重建載入器；`installer/InstallCore.ps1` 負責備份、安裝及還原。
 
-自訂執行DLL原始碼位於 `src/hkmw4.c`。`src/build-dll.ps1` 使用Zig 0.14.1重建DLL；普通安裝程式建置直接採用 `data/payload/hkmw4.dll`，不會重新編譯或更改執行引擎。
+自訂執行DLL原始碼位於 `src/hkmw4.c`。`src/build-dll.ps1` 使用Zig 0.14.1重建DLL；安裝程式建置採用 `data/payload/hkmw4.dll`。
 
-## 驗證狀態
+## 技術驗證
 
-29項背景技術檢查通過，包括全部15,639條規則及178條選單規則的DLL輸出核對、335條累積字串、三條錯掛操作提示的回歸案例，以及隔離安裝、重複安裝、還原、拒絕損壞補丁及不相符版本的測試。公開EXE另有內嵌檔案完整性檢查。遊戲畫面及實機效能未在本次發佈流程測試。
-
-本項目與遊戲發行商無關。遊戲、Bink及相關商標的權利屬各自權利人；本儲存庫不授予原遊戲或第三方軟件的權利。
+29項技術檢查通過，涵蓋15,639條完整規則、178條選單規則、335條累積字串、三條錯掛操作提示的回歸案例，以及安裝、重複安裝、還原及檔案完整性驗證。
