@@ -51,6 +51,9 @@ def main():
   cases=integration.get('regression_cases',[])
   for case in cases:assert translate(case['old'])==case['expected'].encode()
   if cases:check('Misassigned UI prompts do not replace story dialogue',len(cases)==3)
+  name_cases=integration.get('name_regression_cases',[])
+  for case in name_cases:assert translate(case['old'])==case['expected'].encode()
+  if name_cases:check('Reviewed names, Korean names, internal stops and specified profanity survive integration',len(name_cases)==6)
 
  data=(R/'data/payload/hkmw4-changes.bin').read_bytes();assert data[:8]==b'HKMC0002';pos=12
  count=struct.unpack_from('<I',data,8)[0]
